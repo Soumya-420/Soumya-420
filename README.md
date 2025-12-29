@@ -1,14 +1,14 @@
 <!-- Header with Premium Gradient -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0f0c29,302b63,24243e&height=300&section=header&text=Soumyadeep%20Saha&fontSize=90&fontColor=00FFFB&animation=fadeIn&fontAlignY=38&desc=Guardian%20of%20the%20Web&descAlignY=55&descSize=25" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0f0c29,302b63,24243e&height=280&section=header&text=Soumyadeep%20Saha&fontSize=80&fontColor=00FFFB&animation=fadeIn&fontAlignY=38&desc=Guardian%20of%20the%20Web&descAlignY=60&descSize=22" width="100%" alt="Header" />
 </div>
 
 <!-- Intro Section with Avatar and Typing Text -->
 <div align="center">
-  <img src="https://media.giphy.com/media/hq6gC3iwFZmGjLqJcf/giphy.gif" width="100" alt="Hacker GIF">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100" alt="Hacker GIF">
   <br>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Cybersecurity+Specialist;Full-Stack+Web+Developer;Vulnerability+Assessor;Open+Source+Contributor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Cybersecurity+Specialist;Full-Stack+Web+Developer;Vulnerability+Assessor;Open+Source+Contributor" alt="Typing SVG" />
   </a>
 </div>
 
@@ -48,8 +48,8 @@
         <li>💀 Fun Fact: <i>"I treat bugs like intruders."</i></li>
       </ul>
     </td>
-    <td width="40%" valign="center">
-       <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+    <td width="40%" align="center">
+       <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" alt="Coding GIF">
     </td>
   </tr>
 </table>
@@ -83,22 +83,6 @@
 
 ---
 
-<!-- GitHub Stats Section -->
-<h2 align="center">📊 Battle Stats</h2>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soumya-420&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00FFFB&icon_color=00FFFB" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00FFFB&icon_color=00FFFB" height="180" alt="Top Langs" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" />
-</div>
-
----
-
 <!-- Featured Projects -->
 <h2 align="center">🚀 Top Deployments</h2>
 
@@ -110,8 +94,7 @@
         <p align="center"><i>"Magic in every order"</i></p>
         <p>
           🛍️ <b>Next-Gen E-Commerce</b><br>
-          ✨ Glassmorphism UI<br>
-          🛒 Smart Cart & Search<br>
+          ✨ Glassmorphism UI | Smart Cart<br>
           🔥 <b>Tech:</b> JS, Firebase, CSS3
         </p>
         <p align="center">
@@ -124,9 +107,8 @@
         <p align="center"><i>"Defense in Depth"</i></p>
         <p>
           🕵️ <b>Security Assessment</b><br>
-          🧩 OWASP Top 10 Audit<br>
-          🔒 Vulnerability Patching<br>
-          � <b>Tools:</b> Burp, Nmap, Metasploit
+          🧩 OWASP Top 10 | Vuln Patching<br>
+          🔥 <b>Tools:</b> Burp, Nmap, Metasploit
         </p>
         <p align="center">
           <a href="#"><img src="https://img.shields.io/badge/Report-Blue?style=flat-square&logo=github" /></a>
@@ -138,11 +120,18 @@
 
 ---
 
-<!-- Snake Animation -->
-<h2 align="center">🐍 Contribution Activity</h2>
+<!-- Stats Section -->
+<h2 align="center">� Battle Stats</h2>
+
 <div align="center">
-  <img src="https://github.com/Soumya-420/Soumya-420/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" />
 </div>
+
+<div align="center">
+  <img src="./guardian.svg" width="100%" alt="Guardian of the Web">
+</div>
+
+---
 
 <!-- Footer -->
 <div align="center">
