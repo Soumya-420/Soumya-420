@@ -9,7 +9,7 @@
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
-        <feMerge in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
@@ -19,5 +19,7 @@
         font-family="Arial, sans-serif" font-size="50" font-weight="bold" 
         fill="url(#textGradient)" filter="url(#glow)">
     IT'S ME, SOUMYADEEP! 🕵️‍♂️
+    <!-- SMIL Animation for blinking - GitHub supports this -->
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite" />
   </text>
 </svg>
