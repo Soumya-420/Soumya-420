@@ -22,8 +22,7 @@
 </div>
 
 <p align="center">
-This is <b>Soumyadeep Saha</b>, a 3rd year undergraduate from <a href="https://hetc.ac.in/">Hooghly Engineering & Technology College, West Bengal</a>. 
-A budding <b>Cybersecurity Analyst</b> and <b>Web Defender</b> 🛡️, who is obsessed with securing the digital frontier and wants a platform to protect and excel 🚀. 
+A budding <b>Cybersecurity Analyst</b> and <b>Web Defender</b> 🛡️ from <a href="https://hetc.ac.in/">Hooghly Engineering & Technology College, West Bengal</a>, who is obsessed with securing the digital frontier and wants a platform to protect and excel 🚀. 
 <br>
 <i>"Breaking codes while <b>BUILDING & SECURING</b>!!!"</i>
 </p>
