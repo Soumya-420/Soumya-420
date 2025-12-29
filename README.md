@@ -20,7 +20,7 @@
   </a>
   
   <br>
-  <img src="./myself.svg" width="100%" alt="It's Me, Soumyadeep">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=45&duration=1&pause=500&color=FFFFFF&center=true&vCenter=true&repeat=true&width=800&lines=IT'S+ME%2C+SOUMYADEEP!+%F0%9F%95%B5%EF%B8%8F%E2%80%8D%E2%99%82%EF%B8%8F" alt="It's Me, Soumyadeep">
 </div>
 
 <p align="center">
