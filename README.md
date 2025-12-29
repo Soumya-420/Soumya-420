@@ -1,6 +1,9 @@
 <!-- Custom Header with Animated Guardian SVG -->
 <div align="center">
-  <img src="./guardian.svg" width="100%" alt="Guardian of the Web Header">
+  <img src="./guardian.svg" width="100%" alt="Soumyadeep Saha">
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=400&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
+  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="35" style="margin-bottom: -5px;" />
 </div>
 
 <!-- Hello Section (Quantum3600 Style) -->

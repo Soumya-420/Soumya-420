@@ -1,4 +1,4 @@
-<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Cyber Gradient for Text Fill -->
     <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -20,7 +20,7 @@
       .text-body {
         font-family: 'Verdana', sans-serif;
         font-weight: 900;
-        font-size: 60px;
+        font-size: 70px;
         text-transform: uppercase;
         fill: url(#cyberGrad);
         stroke: #ffffff;
@@ -36,7 +36,8 @@
     </style>
   </defs>
   
-  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" class="text-body">
-    🌐 Guardian of the Web
+  <!-- Just the Name -->
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" class="text-body">
+    Soumyadeep Saha
   </text>
 </svg>
