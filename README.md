@@ -1,6 +1,10 @@
 # 🌌 Welcome to My Digital Sanctum 🛡️💻
 
 <p align="center">
+  <img src="https://media.giphy.com/media/hq6gC3iwFZmGjLqJcf/giphy.gif" width="150" alt="Hacking GIF">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Status-Hacking%20in%20Progress-00FFFB?style=for-the-badge&logo=kali-linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Security-Encryption%20Enabled-green?style=for-the-badge&logo=vlc&logoColor=white" />
 </p>
@@ -30,24 +34,24 @@ I thrive at the intersection of **Web Development** and **Cybersecurity**, build
 
 ---
 
-### � Programming & Database
-<p align="left">
+### 💻 Programming & Database
+<p align="center">
   <img src="https://skillicons.dev/icons?i=c,java,py,mysql&theme=dark" />
 </p>
 
 ### 🌐 Web Development
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark" />
 </p>
 
 ### 🛡️ Security Tools & Concepts
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=postman,linux&theme=dark" />
   <img src="https://img.shields.io/badge/Burp%20Suite-Orange?style=for-the-badge&logo=burpsuite&logoColor=white" />
   <img src="https://img.shields.io/badge/Wireshark-Blue?style=for-the-badge&logo=wireshark&logoColor=white" />
   <img src="https://img.shields.io/badge/Nmap-Scanner-white?style=for-the-badge&logo=nmap&logoColor=blue" />
 </p>
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/OWASP-Top%2010-black?style=for-the-badge&logo=owasp&logoColor=white" />
   <img src="https://img.shields.io/badge/Networking-TCP/IP-success?style=for-the-badge&logo=cisco&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloud-Fundamentals-blueviolet?style=for-the-badge&logo=googlecloud&logoColor=white" />
@@ -64,6 +68,42 @@ I thrive at the intersection of **Web Development** and **Cybersecurity**, build
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+<p align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <h3 align="center">🦄 Unicorn E-Commerce</h3>
+        <p align="center">A premium, full-stack shopping experience.</p>
+        <p>
+          • 🛍️ <b>Modern UI/UX</b>: Glassmorphism & Neon design<br>
+          • 🛒 <b>Features</b>: Cart, Dynamic Search, Theme Toggle<br>
+          • ⚡ <b>Tech</b>: HTML5, Vanilla CSS, JS, Firebase
+        </p>
+        <p align="center">
+          <a href="#"><img src="https://img.shields.io/badge/Source-Code-black?style=flat&logo=github" /></a>
+          <a href="#"><img src="https://img.shields.io/badge/Live-Demo-FF0055?style=flat&logo=vercel" /></a>
+        </p>
+      </td>
+      <td width="50%">
+        <h3 align="center">🛡️ SecureCorp Audit</h3>
+        <p align="center">Enterprise-grade Security Assessment.</p>
+        <p>
+          • 🕵️ <b>VAPT</b>: Vulnerability Assessment & Penetration Testing<br>
+          • 🧩 <b>Audit</b>: Covering OWASP Top 10 vulnerabilities<br>
+          • 🔒 <b>Tools</b>: Burp Suite, Nmap, Metasploit
+        </p>
+        <p align="center">
+          <a href="#"><img src="https://img.shields.io/badge/Report-View-blue?style=flat&logo=github" /></a>
+        </p>
+      </td>
+    </tr>
+  </table>
 </p>
 
 ---
