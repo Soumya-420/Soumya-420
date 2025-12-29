@@ -1,0 +1,21 @@
+<svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .blink-text {
+      font-family: 'Verdana', sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      fill: #ffffff;
+      text-transform: uppercase;
+      animation: blink 1.5s infinite;
+      text-shadow: 0 0 10px #00FFFB;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.1; }
+    }
+  </style>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="blink-text">
+    It's Me, Soumyadeep! 🕵️‍♂️
+  </text>
+</svg>

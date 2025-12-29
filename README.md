@@ -11,7 +11,14 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="30px" align="right">
   <br>
-  <h1> 𝐇𝐞𝐥𝐥𝐨, <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚢𝚋𝚎𝚛_𝚠𝚊𝚛𝚛𝚒𝚘𝚛𝚜/>! It's Me, Soumyadeep! 🕵️‍♂️ </h1>
+  <h1> 𝐇𝐞𝐥𝐥𝐨, <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> </h1>
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=1000&color=00FFFB&center=true&vCenter=true&width=600&lines=fellow+%3Ccyber_warriors%2F%3E!" alt="Typing SVG" />
+  </a>
+  
+  <br>
+  <img src="./myself.svg" width="100%" alt="It's Me, Soumyadeep">
 </div>
 
 <p align="center">
