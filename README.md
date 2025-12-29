@@ -7,8 +7,8 @@
 
 <!-- Custom Header -->
 <div align="center">
-  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="24" style="margin-right: 5px; margin-bottom: -3px;" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=435&lines=Guardian+of+the" alt="Guardian of the" />
+  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30" style="margin-left: 8px; margin-bottom: -5px;" />
 </div>
 
 <!-- Hello Section (Quantum3600 Style) -->
