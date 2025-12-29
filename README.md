@@ -45,6 +45,32 @@
 
 ---
 
+<!-- Stats Section - Matching Quantum3600 Layout -->
+<h2 align="center">📊 GitHub Stats</h2>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" width="100%" />
+</div>
+
+<br>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <h3>Top Languages by Repo</h3>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages by Repo" />
+      </td>
+      <td width="50%" align="center">
+        <h3>Top Languages by Commit</h3>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages by Commit" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 <!-- Badges: Status & Socials -->
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Hacking%20in%20Progress-000000?style=for-the-badge&logo=kali-linux&logoColor=00FFFB&color=1a1a1a" />
