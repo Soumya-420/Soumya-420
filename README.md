@@ -1,6 +1,6 @@
 <!-- Cybersecurity Banner -->
 <div align="center">
-  <img src="./cybersecurity_banner.png" width="100%" alt="Cybersecurity Professional">
+  <img src="./cybersecurity_banner.png" width="70%" alt="Cybersecurity Professional">
 </div>
 
 <br>
@@ -11,7 +11,7 @@
     <tr>
       <td align="center" valign="middle">
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
-        <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30" style="margin-left: 5px;" />
+        <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="50" style="margin-left: 50px;" />
       </td>
     </tr>
   </table>
