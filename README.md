@@ -1,8 +1,10 @@
-<!-- Custom Header with Animated Guardian SVG -->
+<!-- Custom Header -->
 <div align="center">
-  <img src="./guardian.svg" width="100%" alt="Soumyadeep Saha">
+  <h1 style="font-size: 60px; background: linear-gradient(to right, #00F260, #0575E6, #b91d73); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 30px rgba(0,242,96,0.5);">
+    SOUMYADEEP SAHA
+  </h1>
   <br>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=400&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
   <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="35" style="margin-bottom: -5px;" />
 </div>
 
@@ -18,7 +20,9 @@
   </a>
   
   <br>
-  <img src="./myself.svg" width="100%" alt="It's Me, Soumyadeep">
+  <h2 style="font-size: 45px; color: #ffffff; text-shadow: 0 0 10px #00FFFB; animation: blink 1.5s infinite;">
+    IT'S ME, SOUMYADEEP! 🕵️‍♂️
+  </h2>
 </div>
 
 <p align="center">
