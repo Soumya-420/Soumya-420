@@ -121,9 +121,7 @@ A budding <b>Cybersecurity Analyst</b> and <b>Web Defender</b> 🛡️ from <a h
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" />
 </div>
 
-<div align="center">
-  <img src="./guardian.svg" width="100%" alt="Guardian of the Web">
-</div>
+
 
 ---
 
