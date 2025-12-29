@@ -51,23 +51,40 @@
 
 ---
 
-<!-- Profile Summary Section -->
-<h2 align="center">📊 Profile Summary</h2>
+<!-- GitHub Stats Section - Quantum3600 Style -->
+<h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
   <table>
     <tr>
-      <td width="100%" colspan="2">
+      <td width="35%" valign="top">
+        <h3 style="color: #ff6b6b;">Soumya-420</h3>
+        <p>
+          🔹 <b>60 Contributions in 2025</b><br>
+          📦 <b>3 Public Repos</b><br>
+          🕐 <b>Joined GitHub 8 months ago</b>
+        </p>
+      </td>
+      <td width="65%" valign="top">
+        <p align="right"><i>contributions in the last year</i></p>
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Graph" width="100%" />
       </td>
     </tr>
+  </table>
+</div>
+
+<br>
+
+<div align="center">
+  <table>
     <tr>
       <td width="50%" align="center">
         <h3 style="color: #ff6b6b;">Top Languages by Repo</h3>
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=pie&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages by Repo" />
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=donut&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages by Repo" />
       </td>
       <td width="50%" align="center">
-        <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="350" alt="Hacking Animation">
+        <h3 style="color: #ff6b6b;">Top Languages by Commit</h3>
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=donut&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages by Commit" />
       </td>
     </tr>
   </table>
