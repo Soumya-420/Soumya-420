@@ -26,16 +26,27 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 
 ---
 
-## 🛠️ My Arsenal
-
-### 🔐 Cybersecurity & Pentesting
+### � Programming & Database
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,kali,bash,powershell,docker,aws,py&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,java,py,mysql&theme=dark" />
 </p>
 
-### 💻 Web Development
+### 🌐 Web Development
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,tailwind,figma&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark" />
+</p>
+
+### 🛡️ Security Tools & Concepts
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postman,linux&theme=dark" />
+  <img src="https://img.shields.io/badge/Burp%20Suite-Orange?style=for-the-badge&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-Blue?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-Scanner-white?style=for-the-badge&logo=nmap&logoColor=blue" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/OWASP-Top%2010-black?style=for-the-badge&logo=owasp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Networking-TCP/IP-success?style=for-the-badge&logo=cisco&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cloud-Fundamentals-blueviolet?style=for-the-badge&logo=googlecloud&logoColor=white" />
 </p>
 
 ---
