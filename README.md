@@ -7,12 +7,11 @@
 </div>
 
 <!-- Hello Section (Quantum3600 Style) -->
+<!-- Hello Section (Quantum3600 Style) -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
-  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30px">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="30px" align="right">
   <br>
-  <h1> 𝐇𝐞𝐥𝐥𝐨, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚢𝚋𝚎𝚛_𝚠𝚊𝚛𝚛𝚒𝚘𝚛𝚜/>! It's Me, Soumyadeep! 🕵️‍♂️ </h1>
+  <h1> 𝐇𝐞𝐥𝐥𝐨, <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚢𝚋𝚎𝚛_𝚠𝚊𝚛𝚛𝚒𝚘𝚛𝚜/>! It's Me, Soumyadeep! 🕵️‍♂️ </h1>
 </div>
 
 <p align="center">
