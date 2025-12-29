@@ -1,35 +1,42 @@
-<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Cyber Gradient for Text Fill -->
     <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#00f260;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#0575e6;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#b91d73;stop-opacity:1" />
     </linearGradient>
-    
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+
+    <!-- Strong Glow Filter -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-  </defs>
 
-  <!-- Background Animated Globe (Centered and Opacity adjusted for readability) -->
-  <image href="https://media.giphy.com/media/8402b20755bdbe0b534b416e788c1df3/giphy.gif" x="250" y="-25" height="350" width="300" opacity="0.6" />
+    <style>
+      .text-body {
+        font-family: 'Verdana', sans-serif;
+        font-weight: 900;
+        font-size: 60px;
+        text-transform: uppercase;
+        fill: url(#cyberGrad);
+        stroke: #ffffff;
+        stroke-width: 1px;
+        filter: url(#neonGlow);
+        animation: pulse 3s ease-in-out infinite alternate;
+      }
+
+      @keyframes pulse {
+        0% { opacity: 0.8; filter: drop-shadow(0 0 5px rgba(5, 117, 230, 0.5)); }
+        100% { opacity: 1; filter: drop-shadow(0 0 20px rgba(0, 242, 96, 0.8)); }
+      }
+    </style>
+  </defs>
   
-  <!-- Main Name -->
-  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="'Verdana', sans-serif" font-weight="900" font-size="60" fill="url(#cyberGrad)" stroke="white" stroke-width="1" filter="url(#glow)">
-    Soumyadeep Saha
-  </text>
-  
-  <!-- Tagline -->
-  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="28" fill="#00FFFB" letter-spacing="2">
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" class="text-body">
     🌐 Guardian of the Web
-  </text>
-  
-  <!-- Sub-tagline -->
-   <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#cccccc" font-style="italic">
-    "Securing the Digital Frontier"
   </text>
 </svg>
