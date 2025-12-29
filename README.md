@@ -20,9 +20,7 @@
   </a>
   
   <br>
-  <h2 style="font-size: 45px; color: #ffffff; text-shadow: 0 0 10px #00FFFB; animation: blink 1.5s infinite;">
-    IT'S ME, SOUMYADEEP! 🕵️‍♂️
-  </h2>
+  <img src="./myself.svg" width="100%" alt="It's Me, Soumyadeep">
 </div>
 
 <p align="center">
