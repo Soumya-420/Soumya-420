@@ -48,7 +48,7 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
