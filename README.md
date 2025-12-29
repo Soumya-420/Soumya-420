@@ -10,7 +10,7 @@
   <table border="0" cellpadding="0" cellspacing="0">
     <tr>
       <td align="right" valign="middle">
-        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=false&vCenter=true&width=435&lines=Guardian+of+the" alt="Guardian of the" />
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=false&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
       </td>
       <td align="left" valign="middle">
         <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30" />
