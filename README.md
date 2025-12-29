@@ -63,7 +63,7 @@ I thrive at the intersection of **Web Development** and **Cybersecurity**, build
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Soumya-420&theme=tokyonight&hide_border=true&card_width=800&t=1735491600" alt="GitHub Streak" />
 </p>
 
 ---
