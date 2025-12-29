@@ -1,158 +1,150 @@
-# 🌌 Welcome to My Digital Sanctum 🛡️💻
+<!-- Header with Premium Gradient -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0f0c29,302b63,24243e&height=300&section=header&text=Soumyadeep%20Saha&fontSize=90&fontColor=00FFFB&animation=fadeIn&fontAlignY=38&desc=Guardian%20of%20the%20Web&descAlignY=55&descSize=25" width="100%" alt="Header" />
+</div>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Hacking GIF">
-</p>
+<!-- Intro Section with Avatar and Typing Text -->
+<div align="center">
+  <img src="https://media.giphy.com/media/hq6gC3iwFZmGjLqJcf/giphy.gif" width="100" alt="Hacker GIF">
+  <br>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Cybersecurity+Specialist;Full-Stack+Web+Developer;Vulnerability+Assessor;Open+Source+Contributor" alt="Typing SVG" />
+  </a>
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Hacking%20in%20Progress-00FFFB?style=for-the-badge&logo=kali-linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Security-Encryption%20Enabled-green?style=for-the-badge&logo=vlc&logoColor=white" />
-</p>
+<br>
 
-<p align="center">
-  <img src="./guardian.svg" width="100%" alt="Guardian of the Web">
-</p>
+<!-- Badges: Status & Socials -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Hacking%20in%20Progress-000000?style=for-the-badge&logo=kali-linux&logoColor=00FFFB&color=1a1a1a" />
+  <img src="https://img.shields.io/badge/Security-Encrypted-000000?style=for-the-badge&logo=protonvpn&logoColor=00FFFB&color=1a1a1a" />
+</div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFFB&center=true&vCenter=true&width=435&lines=Cybersecurity+Specialist;Full-Stack+Web+Developer;Open+Source+Contributor;Constant+Learner" alt="Typing SVG" />
-</p>
+<div align="center">
+  <a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://instagram.com/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="mailto:soumyadeepsaha1123@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</div>
 
----
-
-## 👨‍💻 About Me
-
-Hello! I'm **Soumyadeep Saha**, a Tech Enthusiast and a **Computer Science Undergraduate (2023-2027)** from **Hooghly Engineering and Technology College**.
-I thrive at the intersection of **Web Development** and **Cybersecurity**, building applications that are not only beautiful but iron-clad secure.
-
-- � I’m currently working on **Full-Stack Web Applications & Vulnerability Assessment**
-- � I’m currently learning **Advanced Penetration Testing & Cloud Security**
-- 🎓 **Education**:
-  - **B.Tech in CSE** (2023-2027) - *Hooghly Engineering & Technology College*
-  - **Higher Secondary (Science)** - 88.60% (2023)
-  - **Secondary** - 97.7% (2021)
-- ⚡ **Fun fact**: I can find a bug in your code and fix it before you even notice.
+<br>
 
 ---
 
-### 💻 Programming & Database
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,java,py,mysql&theme=dark" />
-</p>
+<!-- About Me with Side-by-Side Layout -->
+<h2 align="center">⚡ About The Guardian</h2>
 
-### 🌐 Web Development
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark" />
-</p>
-
-### 🛡️ Security Tools & Concepts
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postman,linux&theme=dark" />
-  <img src="https://img.shields.io/badge/Burp%20Suite-Orange?style=for-the-badge&logo=burpsuite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Wireshark-Blue?style=for-the-badge&logo=wireshark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nmap-Scanner-white?style=for-the-badge&logo=nmap&logoColor=blue" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/OWASP-Top%2010-black?style=for-the-badge&logo=owasp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Networking-TCP/IP-success?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloud-Fundamentals-blueviolet?style=for-the-badge&logo=googlecloud&logoColor=white" />
-</p>
+<div align="center">
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>👨‍💻 Who Am I?</h3>
+      <p>
+        I am a <b>Cybersecurity Analyst</b> and <b>Full-Stack Developer</b> who believes in building digital fortresses. My code isn't just functional; it's bulletproof.
+      </p>
+      <ul>
+        <li>🔭 Working on <b>Advanced VAPT & Web Sec</b></li>
+        <li>🌱 Learning <b>Cloud Security Architecture</b></li>
+        <li>🎓 <b>B.Tech CSE (2023-2027)</b> @ HETC</li>
+        <li>💀 Fun Fact: <i>"I treat bugs like intruders."</i></li>
+      </ul>
+    </td>
+    <td width="40%" valign="center">
+       <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
-## 📊 Performance Metrics
+<!-- Skills Section -->
+<h2 align="center">🛠️ Tech Arsenal</h2>
 
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Soumya-420&show_icons=true&theme=tokyonight&hide_border=true" alt="Soumya-420's GitHub Stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%"><b>Languages</b></td>
+      <td align="center" width="33%"><b>Frontend</b></td>
+      <td align="center" width="33%"><b>Security & Tools</b></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=c,java,py,mysql&theme=dark&perline=2" />
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark&perline=2" />
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=linux,kali,wireshark,burpsuite,postman,git&theme=dark&perline=3" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-<p align="center">
+---
+
+<!-- GitHub Stats Section -->
+<h2 align="center">📊 Battle Stats</h2>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Soumya-420&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00FFFB&icon_color=00FFFB" height="180" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0c29&title_color=00FFFB&icon_color=00FFFB" height="180" alt="Top Langs" />
+</div>
+
+<br>
+
+<div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" />
-</p>
+</div>
 
 ---
 
-## 🚀 Featured Projects
+<!-- Featured Projects -->
+<h2 align="center">🚀 Top Deployments</h2>
 
-<p align="center">
+<div align="center">
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">🦄 Unicorn E-Commerce</h3>
-        <p align="center">A premium, full-stack shopping experience.</p>
+        <h3 align="center">🦄 Unicorn Store</h3>
+        <p align="center"><i>"Magic in every order"</i></p>
         <p>
-          • 🛍️ <b>Modern UI/UX</b>: Glassmorphism & Neon design<br>
-          • 🛒 <b>Features</b>: Cart, Dynamic Search, Theme Toggle<br>
-          • ⚡ <b>Tech</b>: HTML5, Vanilla CSS, JS, Firebase
+          🛍️ <b>Next-Gen E-Commerce</b><br>
+          ✨ Glassmorphism UI<br>
+          🛒 Smart Cart & Search<br>
+          🔥 <b>Tech:</b> JS, Firebase, CSS3
         </p>
         <p align="center">
-          <a href="#"><img src="https://img.shields.io/badge/Source-Code-black?style=flat&logo=github" /></a>
-          <a href="#"><img src="https://img.shields.io/badge/Live-Demo-FF0055?style=flat&logo=vercel" /></a>
+          <a href="#"><img src="https://img.shields.io/badge/Code-Black?style=flat-square&logo=github" /></a>
+          <a href="#"><img src="https://img.shields.io/badge/Demo-Pink?style=flat-square&logo=vercel" /></a>
         </p>
       </td>
       <td width="50%">
         <h3 align="center">🛡️ SecureCorp Audit</h3>
-        <p align="center">Enterprise-grade Security Assessment.</p>
+        <p align="center"><i>"Defense in Depth"</i></p>
         <p>
-          • 🕵️ <b>VAPT</b>: Vulnerability Assessment & Penetration Testing<br>
-          • 🧩 <b>Audit</b>: Covering OWASP Top 10 vulnerabilities<br>
-          • 🔒 <b>Tools</b>: Burp Suite, Nmap, Metasploit
+          🕵️ <b>Security Assessment</b><br>
+          🧩 OWASP Top 10 Audit<br>
+          🔒 Vulnerability Patching<br>
+          � <b>Tools:</b> Burp, Nmap, Metasploit
         </p>
         <p align="center">
-          <a href="#"><img src="https://img.shields.io/badge/Report-View-blue?style=flat&logo=github" /></a>
+          <a href="#"><img src="https://img.shields.io/badge/Report-Blue?style=flat-square&logo=github" /></a>
         </p>
       </td>
     </tr>
   </table>
-</p>
+</div>
 
 ---
 
-## 🏆 Achievements & Contributions
+<!-- Snake Animation -->
+<h2 align="center">🐍 Contribution Activity</h2>
+<div align="center">
+  <img src="https://github.com/Soumya-420/Soumya-420/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
+</div>
 
-<!-- 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Soumya-420&theme=tokyonight&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</p>
--->
-
----
-
-## 📈 Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Soumya-420&theme=tokyonight&hide_border=true&area=true" width="100%" />
-</p>
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://github.com/Soumya-420/Soumya-420/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-</p>
-
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-<a href="https://linkedin.com/in/[your-id]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="https://twitter.com/[your-handle]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a>
-<a href="https://instagram.com/[your-handle]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" /></a>
-</p>
-
----
-
-<p align="center">
-  <i>"In a world of constant change, the only way to survive is to be an explorer."</i> <br>
-  <b>Stay Secure | Keep Building</b>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Soumya-420&label=Profile%20Views&color=00FFFB&style=flat-square" alt="Visitors Count" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
-</p>
+<!-- Footer -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24243e,302b63,0f0c29&height=120&section=footer" width="100%" />
+</div>
