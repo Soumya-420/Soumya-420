@@ -3,11 +3,6 @@
   <img src="./cybersecurity_banner.png" width="70%" alt="Cybersecurity Professional">
 </div>
 
-<!-- Animated Cybersecurity Mascot -->
-<div align="center">
-  <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="400" alt="Hacking Animation">
-</div>
-
 <br>
 
 <!-- Custom Header -->
@@ -66,7 +61,16 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+      </td>
+      <td width="50%" align="center" valign="middle">
+        <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="350" alt="Hacking Animation">
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
