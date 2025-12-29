@@ -1,22 +1,6 @@
-<!-- Custom Header with Revolving Globe -->
+<!-- Custom Header with Animated Guardian SVG -->
 <div align="center">
-  <table style="border: none; background: none;">
-    <tr>
-      <td align="center" style="border: none; background: none;">
-        <img src="https://i.pinimg.com/originals/84/02/b2/8402b20755bdbe0b534b416e788c1df3.gif" width="120" alt="Revolving Blue Globe">
-      </td>
-      <td align="center" style="border: none; background: none;">
-        <h1 style="font-size: 50px; background: linear-gradient(to right, #00F260, #0575E6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-          Soumyadeep Saha
-        </h1>
-        <h3 style="color: #00FFFB;">🌐 Guardian of the Web</h3>
-        <p><i>"Securing the Digital Frontier"</i></p>
-      </td>
-      <td align="center" style="border: none; background: none;">
-       <img src="https://i.pinimg.com/originals/84/02/b2/8402b20755bdbe0b534b416e788c1df3.gif" width="120" alt="Revolving Blue Globe">
-      </td>
-    </tr>
-  </table>
+  <img src="./guardian.svg" width="100%" alt="Guardian of the Web Header">
 </div>
 
 <!-- Hello Section (Quantum3600 Style) -->
