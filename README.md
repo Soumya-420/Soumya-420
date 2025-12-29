@@ -11,7 +11,7 @@
     <tr>
       <td align="center" valign="middle">
         <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
-        <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="50" style="margin-left: 10px;" />
+        <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="50" style="margin-left: 50px;" />
       </td>
     </tr>
   </table>
