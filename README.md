@@ -1,6 +1,6 @@
 <!-- Cybersecurity Banner -->
 <div align="center">
-  <img src="./cybersecurity_banner.png" width="60%" alt="Cybersecurity Professional">
+  <img src="./cybersecurity_banner.png" width="70%" alt="Cybersecurity Professional">
 </div>
 
 <br>
