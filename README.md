@@ -61,8 +61,7 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" width="45%" />
-  <img src="https://streak-stats.demolab.com?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="45%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
 </div>
 
 ---
