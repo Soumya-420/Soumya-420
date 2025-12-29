@@ -6,10 +6,9 @@
 <br>
 
 <!-- Custom Header -->
-<div align="center" style="display: flex; align-items: center; justify-content: center; flex-wrap: nowrap;">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=435&lines=Guardian+of+the" alt="Guardian of the" style="display: inline-block;" />
-  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30" style="display: inline-block; margin-left: 8px; vertical-align: middle;" />
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=435&lines=Guardian+of+the" alt="Guardian of the" /><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30" />
+</p>
 
 <!-- Hello Section (Quantum3600 Style) -->
 <!-- Hello Section (Quantum3600 Style) -->
