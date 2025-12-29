@@ -8,8 +8,9 @@
       .text-content {
         font-family: 'Fira Code', 'Courier New', monospace;
         font-size: 35px;
-        fill: #00FFFB;
+        fill: #00FFFB; /* Cyan color matching the screenshot */
         font-weight: 600;
+        white-space: pre;
       }
       .cursor {
         fill: #ffffff;
@@ -17,20 +18,26 @@
       }
       
       /* Synchronized Animations */
-      .anim-width {
-        animation: expand 3.5s steps(27, end) forwards;
+      .anim-mask {
+        animation: reveal 3s steps(25, end) forwards;
       }
-      .anim-move {
-        animation: moveX 3.5s steps(27, end) forwards;
+      .anim-cursor {
+        animation: moveCursor 3s steps(25, end) forwards;
       }
 
-      @keyframes expand {
+      /* 
+         Text length: "fellow <cyber_warriors/>!" is 25 chars.
+         Approx width per char in monospace 35px is ~21px.
+         Total width ~525px.
+      */
+
+      @keyframes reveal {
         from { width: 0; }
-        to { width: 570px; } /* Approx char width */
+        to { width: 540px; }
       }
-      @keyframes moveX {
+      @keyframes moveCursor {
         from { transform: translateX(0); }
-        to { transform: translateX(570px); }
+        to { transform: translateX(540px); }
       }
       @keyframes blink {
         0%, 100% { opacity: 1; }
@@ -38,17 +45,17 @@
       }
     </style>
     
-    <mask id="reveal-mask">
-      <rect x="0" y="0" height="50" fill="white" class="anim-width" />
+    <mask id="typewriter-mask">
+      <rect x="0" y="0" height="50" fill="white" class="anim-mask" />
     </mask>
   </defs>
 
   <!-- Centering Container -->
-  <g transform="translate(65, 35)">
+  <g transform="translate(60, 35)">
     <!-- The Typed Text -->
-    <text x="0" y="0" class="text-content" mask="url(#reveal-mask)">fellow &lt;cyber_warriors/&gt;!</text>
+    <text x="0" y="0" class="text-content" mask="url(#typewriter-mask)">fellow &lt;cyber_warriors/&gt;!</text>
     
-    <!-- The Blinking Cursor (Moving) -->
-    <rect x="2" y="-32" width="4" height="40" class="cursor anim-move" />
+    <!-- The Blinking Cursor (Pipe Style | ) -->
+    <rect x="5" y="-32" width="3" height="40" class="cursor anim-cursor" />
   </g>
 </svg>
