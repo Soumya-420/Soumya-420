@@ -18,9 +18,9 @@
 
     <style>
       .text-body {
-        font-family: 'Verdana', sans-serif; /* Thicker, standard font */
+        font-family: 'Verdana', sans-serif;
         font-weight: 900;
-        font-size: 65px;
+        font-size: 60px; /* Slightly smaller to fit icon */
         text-transform: uppercase;
         fill: url(#cyberGrad);
         stroke: #ffffff;
@@ -35,11 +35,8 @@
       }
     </style>
   </defs>
-
-  <!-- Background (Optional: can be removed for transparency, but helps contrast) -->
-  <!-- <rect width="100%" height="100%" fill="#0d1117" rx="15" /> -->
   
   <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" class="text-body">
-    Guardian of the Web
+    🌐 Guardian of the Web
   </text>
 </svg>
