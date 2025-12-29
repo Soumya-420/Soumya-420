@@ -1,3 +1,10 @@
+<!-- Cybersecurity Banner -->
+<div align="center">
+  <img src="./cybersecurity_banner.png" width="100%" alt="Cybersecurity Professional">
+</div>
+
+<br>
+
 <!-- Custom Header -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
