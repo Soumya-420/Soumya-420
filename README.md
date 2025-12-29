@@ -43,7 +43,7 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 ## 📊 Performance Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soumya-420&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Soumya-420's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Soumya-420&show_icons=true&theme=tokyonight&hide_border=true" alt="Soumya-420's GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
