@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00FFA3,03E1FF,DC1FFF&height=320&section=header&text=Guardian%20of%20the%20Web&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Securing%20the%20Digital%20Frontier&descSize=25&descAlignY=60" alt="Header Image">
+  <img src="./guardian.svg" width="100%" alt="Guardian of the Web">
 </p>
 
 <p align="center">
