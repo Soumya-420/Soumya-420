@@ -17,12 +17,16 @@
 
 ## 👨‍💻 About Me
 
-I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate about building secure, scalable, and stunning digital experiences. My journey involves navigating the intricate web of code while simultaneously shielding it from the shadows of the cyber world.
+Hello! I'm **Soumyadeep Saha**, a Tech Enthusiast and a **Computer Science Undergraduate (2023-2027)** from **Hooghly Engineering and Technology College**.
+I thrive at the intersection of **Web Development** and **Cybersecurity**, building applications that are not only beautiful but iron-clad secure.
 
-- 🛡️ **Cyber Defense**: Exploring the depths of VAPT, Network Security, and Cryptography.
-- 🌐 **Web Crafting**: Orchestrating modern applications with React, Node.js, and sleek UI/UX design.
-- 🐚 **Terminal Resident**: I speak fluent Bash and Vim.
-- ⚡ **Current Mission**: Mastering Advanced Penetration Testing and Cloud Architecture.
+- � I’m currently working on **Full-Stack Web Applications & Vulnerability Assessment**
+- � I’m currently learning **Advanced Penetration Testing & Cloud Security**
+- 🎓 **Education**:
+  - **B.Tech in CSE** (2023-2027) - *Hooghly Engineering & Technology College*
+  - **Higher Secondary (Science)** - 88.60% (2023)
+  - **Secondary** - 97.7% (2021)
+- ⚡ **Fun fact**: I can find a bug in your code and fix it before you even notice.
 
 ---
 
@@ -59,7 +63,7 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Soumya-420&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly" alt="GitHub Streak" />
 </p>
 
 ---
