@@ -1,9 +1,5 @@
 <!-- Custom Header -->
 <div align="center">
-  <h1 style="font-size: 60px; background: linear-gradient(to right, #00F260, #0575E6, #b91d73); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 0 30px rgba(0,242,96,0.5);">
-    SOUMYADEEP SAHA
-  </h1>
-  <br>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
   <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="35" style="margin-bottom: -5px;" />
 </div>
