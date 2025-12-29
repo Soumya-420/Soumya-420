@@ -3,6 +3,11 @@
   <img src="./cybersecurity_banner.png" width="70%" alt="Cybersecurity Professional">
 </div>
 
+<!-- Animated Cybersecurity Mascot -->
+<div align="center">
+  <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="400" alt="Hacking Animation">
+</div>
+
 <br>
 
 <!-- Custom Header -->
