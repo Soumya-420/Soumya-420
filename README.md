@@ -6,9 +6,9 @@
 <br>
 
 <!-- Custom Header -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=435&lines=Guardian+of+the" alt="Guardian of the" /><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30" />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+🌍" alt="Guardian of the" />
+</div>
 
 <!-- Hello Section (Quantum3600 Style) -->
 <!-- Hello Section (Quantum3600 Style) -->
