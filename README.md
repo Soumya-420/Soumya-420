@@ -7,7 +7,16 @@
 
 <!-- Custom Header -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+🌍" alt="Guardian of the" />
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="right" valign="middle">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=false&vCenter=true&width=435&lines=Guardian+of+the" alt="Guardian of the" />
+      </td>
+      <td align="left" valign="middle">
+        <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="30" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <!-- Hello Section (Quantum3600 Style) -->
