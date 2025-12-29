@@ -61,18 +61,8 @@
 <br>
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <h3>Top Languages by Repo</h3>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages by Repo" />
-      </td>
-      <td width="50%" align="center">
-        <h3>Top Languages by Commit</h3>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages by Commit" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" width="45%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="45%" />
 </div>
 
 ---
