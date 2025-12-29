@@ -1,0 +1,54 @@
+<svg width="700" height="50" viewBox="0 0 700 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Fira Code';
+        src: local('Fira Code'), local('Courier New'), monospace;
+      }
+      .text-content {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 35px;
+        fill: #00FFFB;
+        font-weight: 600;
+      }
+      .cursor {
+        fill: #ffffff;
+        animation: blink 1s step-end infinite;
+      }
+      
+      /* Synchronized Animations */
+      .anim-width {
+        animation: expand 3.5s steps(27, end) forwards;
+      }
+      .anim-move {
+        animation: moveX 3.5s steps(27, end) forwards;
+      }
+
+      @keyframes expand {
+        from { width: 0; }
+        to { width: 570px; } /* Approx char width */
+      }
+      @keyframes moveX {
+        from { transform: translateX(0); }
+        to { transform: translateX(570px); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+    
+    <mask id="reveal-mask">
+      <rect x="0" y="0" height="50" fill="white" class="anim-width" />
+    </mask>
+  </defs>
+
+  <!-- Centering Container -->
+  <g transform="translate(65, 35)">
+    <!-- The Typed Text -->
+    <text x="0" y="0" class="text-content" mask="url(#reveal-mask)">fellow &lt;cyber_warriors/&gt;!</text>
+    
+    <!-- The Blinking Cursor (Moving) -->
+    <rect x="2" y="-32" width="4" height="40" class="cursor anim-move" />
+  </g>
+</svg>

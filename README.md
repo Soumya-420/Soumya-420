@@ -13,9 +13,7 @@
   <br>
   <h1> 𝐇𝐞𝐥𝐥𝐨, <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> </h1>
   
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=35&pause=10000&color=00FFFB&center=true&vCenter=true&width=650&lines=fellow+%3Ccyber_warriors%2F%3E!&random=false" alt="Typing SVG" />
-  </a>
+  <img src="./typing.svg" width="600" alt="fellow <cyber_warriors/>!" />
   
   <br>
   <img src="./myself.svg" width="100%" alt="It's Me, Soumyadeep">
