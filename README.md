@@ -26,11 +26,14 @@
   <img src="./myself.svg" width="100%" alt="It's Me, Soumyadeep">
 </div>
 
-<p align="center">
-A budding <b>Cybersecurity Analyst</b> and <b>Web Defender</b> 🛡️ from <a href="https://hetc.ac.in/">Hooghly Engineering & Technology College, West Bengal</a>, who is obsessed with securing the digital frontier and wants a platform to protect and excel 🚀. 
-<br>
-<i>"Breaking codes while <b>BUILDING & SECURING</b>!!!"</i>
-</p>
+<div align="center">
+  <h3 style="font-size: 22px; color: #ffffff; line-height: 1.8; margin: 20px 0;">
+    A budding <b style="color: #00FFFB;">Cybersecurity Analyst</b> and <b style="color: #00FFFB;">Web Defender</b> 🛡️ from <a href="https://hetc.ac.in/" style="color: #0575e6; text-decoration: none;">Hooghly Engineering & Technology College, West Bengal</a>,<br>
+    who is obsessed with securing the digital frontier and wants a platform to protect and excel 🚀.
+    <br><br>
+    <i style="font-size: 18px; color: #00f260;">"Breaking codes while <b>BUILDING & SECURING</b>!!!"</i>
+  </h3>
+</div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
