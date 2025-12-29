@@ -43,12 +43,12 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 ## 📊 Performance Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=soumy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="soumy's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumy&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Soumya-420&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Soumya-420's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=soumy&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
@@ -56,7 +56,7 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 ## 🏆 Achievements & Contributions
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=soumy&theme=tokyonight&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Soumya-420&theme=tokyonight&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -64,7 +64,7 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 ## 📈 Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=soumy&theme=tokyonight&hide_border=true&area=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Soumya-420&theme=tokyonight&hide_border=true&area=true" width="100%" />
 </p>
 
 ---
@@ -72,7 +72,7 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github.com/soumy/soumy/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github.com/Soumya-420/Soumya-420/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -93,7 +93,7 @@ I am a **Cybersecurity Enthusiast** and **Full-Stack Web Developer** passionate 
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=soumy&label=Profile%20Views&color=00FFFB&style=flat-square" alt="Visitors Count" />
+  <img src="https://komarev.com/ghpvc/?username=Soumya-420&label=Profile%20Views&color=00FFFB&style=flat-square" alt="Visitors Count" />
 </p>
 
 <p align="center">
