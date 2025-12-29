@@ -63,7 +63,7 @@ I thrive at the intersection of **Web Development** and **Cybersecurity**, build
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Soumya-420&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=Soumya-420&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
