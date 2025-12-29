@@ -3,16 +3,30 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0f0c29,302b63,24243e&height=280&section=header&text=Soumyadeep%20Saha&fontSize=80&fontColor=00FFFB&animation=fadeIn&fontAlignY=38&desc=Guardian%20of%20the%20Web&descAlignY=60&descSize=22" width="100%" alt="Header" />
 </div>
 
-<!-- Intro Section with Avatar and Typing Text -->
+<!-- Hello Section (Quantum3600 Style) -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100" alt="Hacker GIF">
+  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="30px" align="right">
   <br>
+  <h1> 𝐇𝐞𝐥𝐥𝐨, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚌𝚢𝚋𝚎𝚛_𝚠𝚊𝚛𝚛𝚒𝚘𝚛𝚜/>! It's Me, Soumyadeep! 🕵️‍♂️ </h1>
+</div>
+
+<p align="center">
+This is <b>Soumyadeep Saha</b>, a 3rd year undergraduate from <a href="https://hetc.ac.in/">Hooghly Engineering & Technology College, West Bengal</a>. 
+A budding <b>Cybersecurity Analyst</b> and <b>Web Defender</b> 🛡️, who is obsessed with securing the digital frontier and wants a platform to protect and excel 🚀. 
+<br>
+<i>"Breaking codes while <b>BUILDING & SECURING</b>!!!"</i>
+</p>
+
+<div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Cybersecurity+Specialist;Full-Stack+Web+Developer;Vulnerability+Assessor;Open+Source+Contributor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Cybersecurity+Specialist;Vulnerability+Assessor;Full-Stack+Web+Developer;Open+Source+Contributor" alt="Typing SVG" />
   </a>
 </div>
 
 <br>
+
+---
 
 <!-- Badges: Status & Socials -->
 <div align="center">
@@ -27,33 +41,6 @@
 </div>
 
 <br>
-
----
-
-<!-- About Me with Side-by-Side Layout -->
-<h2 align="center">⚡ About The Guardian</h2>
-
-<div align="center">
-<table>
-  <tr>
-    <td width="60%" valign="top">
-      <h3>👨‍💻 Who Am I?</h3>
-      <p>
-        I am a <b>Cybersecurity Analyst</b> and <b>Full-Stack Developer</b> who believes in building digital fortresses. My code isn't just functional; it's bulletproof.
-      </p>
-      <ul>
-        <li>🔭 Working on <b>Advanced VAPT & Web Sec</b></li>
-        <li>🌱 Learning <b>Cloud Security Architecture</b></li>
-        <li>🎓 <b>B.Tech CSE (2023-2027)</b> @ HETC</li>
-        <li>💀 Fun Fact: <i>"I treat bugs like intruders."</i></li>
-      </ul>
-    </td>
-    <td width="40%" align="center">
-       <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" alt="Coding GIF">
-    </td>
-  </tr>
-</table>
-</div>
 
 ---
 
