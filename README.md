@@ -51,22 +51,22 @@
 
 ---
 
-<!-- Stats Section - Matching Quantum3600 Layout -->
-<h2 align="center">📊 GitHub Stats</h2>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" width="100%" />
-</div>
-
-<br>
+<!-- Profile Summary Section -->
+<h2 align="center">📊 Profile Summary</h2>
 
 <div align="center">
   <table>
     <tr>
-      <td width="50%" valign="top">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+      <td width="100%" colspan="2">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Graph" width="100%" />
       </td>
-      <td width="50%" align="center" valign="middle">
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <h3 style="color: #ff6b6b;">Top Languages by Repo</h3>
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=pie&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages by Repo" />
+      </td>
+      <td width="50%" align="center">
         <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="350" alt="Hacking Animation">
       </td>
     </tr>
