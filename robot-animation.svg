@@ -148,63 +148,64 @@
     </g>
     
     <!-- Right Arm (RAISED UP for waving like human) -->
-    <g transform="translate(40, 15)">
-      <!-- Upper arm (raised horizontally) -->
-      <g transform="rotate(-90 0 0)">
-        <rect x="-7" y="0" width="14" height="38" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
-        <rect x="-6" y="10" width="12" height="10" fill="url(#cyanGlow)" opacity="0.3"/>
+    <g transform="translate(45, 20)">
+      <!-- Upper arm (pointing out slightly) -->
+      <g transform="rotate(-20 0 0)">
+        <rect x="-7" y="0" width="14" height="45" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+        <rect x="-6" y="15" width="12" height="10" fill="url(#cyanGlow)" opacity="0.3"/>
         
-        <!-- Forearm (pointing up) -->
-        <g transform="translate(0, 38) rotate(-90 0 0)">
-          <rect x="-7" y="0" width="14" height="40" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+        <!-- Forearm (vertical, pointing up) -->
+        <g transform="translate(0, 45) rotate(-110 0 0)">
+          <rect x="-7" y="0" width="14" height="50" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+          <rect x="-6" y="20" width="12" height="10" fill="url(#cyanGlow)" opacity="0.2"/>
           
-          <!-- WAVING HAND (palm facing FORWARD) -->
-          <g transform="translate(0, 40) rotate(-90 0 0)">
-            <!-- Wrist pivot animation - side to side like human -->
-            <animateTransform 
-              attributeName="transform" 
-              type="rotate" 
-              values="-90 0 0; -120 0 0; -60 0 0; -120 0 0; -60 0 0; -90 0 0" 
-              dur="2s" 
-              repeatCount="indefinite"/>
-            
-            <!-- Palm (facing viewer) -->
-            <ellipse cx="0" cy="0" rx="11" ry="9" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2.5"/>
-            <ellipse cx="0" cy="-1" rx="9" ry="7" fill="#3a3a3a"/>
-            <circle cx="-2" cy="-2" r="3" fill="#ffd700" opacity="0.8"/>
-            
-            <!-- Thumb (left side) -->
-            <g transform="translate(-11, 0)">
-              <rect x="-2" y="-5" width="4" height="10" rx="2" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
-              <ellipse cx="0" cy="-6" rx="2" ry="2.5" fill="#2a2a2a"/>
-            </g>
-            
-            <!-- Index Finger -->
-            <g transform="translate(-6, 0)">
-              <rect x="-1.8" y="-8" width="3.6" height="14" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
-              <ellipse cx="0" cy="-9" rx="1.8" ry="2.5" fill="#2a2a2a"/>
-              <circle cx="0" cy="-2" r="2" fill="#3a3a3a"/>
-            </g>
-            
-            <!-- Middle Finger (tallest) -->
-            <g transform="translate(0, 0)">
-              <rect x="-1.8" y="-10" width="3.6" height="16" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
-              <ellipse cx="0" cy="-11" rx="1.8" ry="2.5" fill="#2a2a2a"/>
-              <circle cx="0" cy="-3" r="2" fill="#3a3a3a"/>
-            </g>
-            
-            <!-- Ring Finger -->
-            <g transform="translate(6, 0)">
-              <rect x="-1.8" y="-8" width="3.6" height="13" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
-              <ellipse cx="0" cy="-9" rx="1.8" ry="2.5" fill="#2a2a2a"/>
-              <circle cx="0" cy="-2" r="2" fill="#3a3a3a"/>
-            </g>
-            
-            <!-- Pinky (smallest) -->
-            <g transform="translate(10, 0)">
-              <rect x="-1.5" y="-6" width="3" height="10" rx="1.5" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
-              <ellipse cx="0" cy="-7" rx="1.5" ry="2" fill="#2a2a2a"/>
-              <circle cx="0" cy="-1" r="1.5" fill="#3a3a3a"/>
+          <!-- WAVING HAND (pivots at wrist) -->
+          <g transform="translate(0, 50)">
+            <g>
+              <!-- Human-like side-to-side wave animation -->
+              <animateTransform 
+                attributeName="transform" 
+                type="rotate" 
+                values="0 0 0; -25 0 0; 25 0 0; -25 0 0; 25 0 0; 0 0 0" 
+                dur="2s" 
+                repeatCount="indefinite"/>
+              
+              <!-- Palm (facing forward, fingers UP) -->
+              <!-- To point UP here, we rotate the hand group back to vertical relative to the robot -->
+              <g transform="rotate(130 0 0)">
+                <!-- Palm/Hand base -->
+                <rect x="-12" y="-12" width="24" height="20" rx="5" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2"/>
+                <rect x="-10" y="-10" width="20" height="16" rx="4" fill="#3a3a3a"/>
+                <circle cx="-3" cy="-3" r="3.5" fill="#ffd700" opacity="0.9"/> <!-- Hand accent requested earlier -->
+                
+                <!-- Thumb (inner side, pointing up/in) -->
+                <g transform="translate(-13, -2) rotate(-15 0 0)">
+                  <rect x="-2" y="-10" width="4" height="12" rx="2" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+                  <ellipse cx="0" cy="-10" rx="2" ry="2.5" fill="#2a2a2a"/>
+                </g>
+                
+                <!-- Fingers pointing UP -->
+                <!-- Index -->
+                <g transform="translate(-7, -12)">
+                  <rect x="-1.8" y="-14" width="3.6" height="14" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+                  <ellipse cx="0" cy="-14" rx="1.8" ry="2.2" fill="#2a2a2a"/>
+                </g>
+                <!-- Middle -->
+                <g transform="translate(-1, -12)">
+                  <rect x="-1.8" y="-17" width="3.6" height="17" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+                  <ellipse cx="0" cy="-17" rx="1.8" ry="2.2" fill="#2a2a2a"/>
+                </g>
+                <!-- Ring -->
+                <g transform="translate(5, -12)">
+                  <rect x="-1.8" y="-15" width="3.6" height="15" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+                  <ellipse cx="0" cy="-15" rx="1.8" ry="2.2" fill="#2a2a2a"/>
+                </g>
+                <!-- Pinky -->
+                <g transform="translate(10, -12)">
+                  <rect x="-1.5" y="-12" width="3" height="12" rx="1.5" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+                  <ellipse cx="0" cy="-12" rx="1.5" ry="2" fill="#2a2a2a"/>
+                </g>
+              </g>
             </g>
           </g>
         </g>
