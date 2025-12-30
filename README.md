@@ -134,36 +134,29 @@
 
 ---
 
-<!-- Featured Projects -->
-<h2 align="center">🚀 Top Deployments</h2>
+<!-- Highlights Section -->
+<h2 align="center">⭐ Highlights</h2>
 
 <div align="center">
   <table>
     <tr>
-      <td width="50%">
-        <h3 align="center">🦄 Unicorn Store</h3>
-        <p align="center"><i>"Magic in every order"</i></p>
-        <p>
-          🛍️ <b>Next-Gen E-Commerce</b><br>
-          ✨ Glassmorphism UI | Smart Cart<br>
-          🔥 <b>Tech:</b> JS, Firebase, CSS3
-        </p>
-        <p align="center">
-          <a href="#"><img src="https://img.shields.io/badge/Code-Black?style=flat-square&logo=github" /></a>
-          <a href="#"><img src="https://img.shields.io/badge/Demo-Pink?style=flat-square&logo=vercel" /></a>
-        </p>
+      <td width="33%" align="center">
+        <h3>🤖 Guardian Bot Creator</h3>
+        <p>Animated robot guardian featured on profile</p>
+        <img src="./robot-animation.svg" width="200" alt="Guardian Bot" />
       </td>
-      <td width="50%">
-        <h3 align="center">🛡️ SecureCorp Audit</h3>
-        <p align="center"><i>"Defense in Depth"</i></p>
-        <p>
-          🕵️ <b>Security Assessment</b><br>
-          🧩 OWASP Top 10 | Vuln Patching<br>
-          🔥 <b>Tools:</b> Burp, Nmap, Metasploit
-        </p>
-        <p align="center">
-          <a href="#"><img src="https://img.shields.io/badge/Report-Blue?style=flat-square&logo=github" /></a>
-        </p>
+      <td width="33%" align="center">
+        <h3>💻 Top Languages</h3>
+        <p><b>HTML</b> • 67.49%</p>
+        <p><b>Python</b> • 21.25%</p>
+        <p><b>TypeScript</b> • 5.18%</p>
+        <p><b>CSS</b> • 3.32%</p>
+      </td>
+      <td width="33%" align="center">
+        <h3>📂 Active Contributor</h3>
+        <p><b>3 Public Repositories</b></p>
+        <p>129 commits in 2025</p>
+        <p>Building secure web solutions</p>
       </td>
     </tr>
   </table>
