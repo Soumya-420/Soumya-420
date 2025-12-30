@@ -161,9 +161,22 @@
 </div>
 
 <br>
+
+<h3 align="left">✍️ Get Motivated, Guys:</h3>
 <div align="center">
-  <h3 style="color: #ffffff;">"Humans are the weakest link in any security chain."</h3>
-  <p style="color: #00FFFB;">– Kevin Mitnick, Cybersecurity Consultant</p>
+  <table border="0">
+    <tr>
+      <td width="60%" align="center" valign="middle" style="background-color: #0d1117; border-radius: 10px; padding: 20px;">
+        <h3 style="color: #00FFFB;">
+          <i>"Humans are the weakest link in any security chain."</i>
+        </h3>
+        <p align="right" style="color: #ff6b6b; font-weight: bold;">- Kevin Mitnick</p>
+      </td>
+      <td width="40%" align="center" valign="middle">
+        <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="250" alt="Coding Animation">
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
