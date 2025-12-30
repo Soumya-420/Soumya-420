@@ -1,0 +1,57 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+      font-family: 'Matrix Code';
+      src: local('Courier New'), local('Courier'), monospace;
+    }
+    
+    .matrix-bg { fill: #0d1117; }
+    
+    .rain-column {
+      font-family: 'Matrix Code', monospace;
+      font-size: 14px;
+      fill: #00FFFB;
+      opacity: 0;
+    }
+    
+    @keyframes fall {
+      0% { opacity: 0; transform: translateY(-20px); }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { opacity: 0; transform: translateY(200px); }
+    }
+    
+    .col-1 { animation: fall 3s infinite linear; animation-delay: 0.2s; }
+    .col-2 { animation: fall 4s infinite linear; animation-delay: 1.5s; }
+    .col-3 { animation: fall 2.5s infinite linear; animation-delay: 0.5s; }
+    .col-4 { animation: fall 3.5s infinite linear; animation-delay: 2.0s; }
+    .col-5 { animation: fall 2.8s infinite linear; animation-delay: 0.8s; }
+    .col-6 { animation: fall 3.2s infinite linear; animation-delay: 1.2s; }
+    .col-7 { animation: fall 2.2s infinite linear; animation-delay: 2.5s; }
+    .col-8 { animation: fall 3.8s infinite linear; animation-delay: 0.1s; }
+    .col-9 { animation: fall 2.6s infinite linear; animation-delay: 1.8s; }
+    .col-10 { animation: fall 3.1s infinite linear; animation-delay: 0.9s; }
+
+  </style>
+
+  <rect width="300" height="200" class="matrix-bg" />
+
+  <!-- Columns of falling code -->
+  <text x="20" y="0" class="rain-column col-1">1 0 1 1 0</text>
+  <text x="50" y="-30" class="rain-column col-2">0 1 A F 2</text>
+  <text x="80" y="-10" class="rain-column col-3">X 9 4 P Q</text>
+  <text x="110" y="-50" class="rain-column col-4">0 0 1 1 0</text>
+  <text x="140" y="-20" class="rain-column col-5">S E C U R</text>
+  <text x="170" y="-40" class="rain-column col-6">H A C K 1</text>
+  <text x="200" y="0" class="rain-column col-7">F A L S E</text>
+  <text x="230" y="-60" class="rain-column col-8">T R U E 0</text>
+  <text x="260" y="-15" class="rain-column col-9">B Y T E 1</text>
+  <text x="290" y="-25" class="rain-column col-10">4 2 0 6 9</text>
+  
+  <text x="20" y="30" class="rain-column col-1" style="animation-delay: 0.3s">0 1 0 0 1</text>
+  <text x="50" y="0" class="rain-column col-2" style="animation-delay: 1.6s">B 2 C 8 1</text>
+  <text x="140" y="10" class="rain-column col-5" style="animation-delay: 0.9s">L I N U X</text>
+  <text x="200" y="30" class="rain-column col-7" style="animation-delay: 2.6s">N U L L 1</text>
+  <text x="260" y="15" class="rain-column col-9" style="animation-delay: 1.9s">K A L I 0</text>
+
+</svg>

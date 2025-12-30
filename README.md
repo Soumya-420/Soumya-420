@@ -173,7 +173,7 @@
         <p align="right" style="color: #ff6b6b; font-weight: bold;">- Kevin Mitnick</p>
       </td>
       <td width="40%" align="center" valign="middle">
-        <img src="./coding-cat.gif" width="250" alt="Coding Animation">
+        <img src="./matrix-rain.svg" width="250" alt="Matrix Rain Animation">
       </td>
     </tr>
   </table>
