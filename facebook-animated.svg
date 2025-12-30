@@ -1,0 +1,17 @@
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="50" height="50" rx="10" fill="#1877F2" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+  </rect>
+  <path d="M32 15h-3c-2.21 0-4 1.79-4 4v3h-3v4h3v11h4V26h3.65l.35-4H29v-2c0-.55.45-1 1-1h2v-4z" fill="white">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2; 0,0" dur="2s" repeatCount="indefinite" />
+  </path>
+</svg>

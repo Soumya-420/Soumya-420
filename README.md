@@ -152,16 +152,16 @@
 
 <div align="center">
   <a href="https://linkedin.com/in/soumyadeep-saha-800aa127a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" alt="LinkedIn" />
+    <img src="./linkedin-animated.svg" width="50" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/song_lover_soumya004/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="50" alt="Instagram" />
+    <img src="./instagram-animated.svg" width="50" alt="Instagram" />
   </a>
   <a href="https://www.facebook.com/share/1AR98pcVpt/" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40" alt="Facebook" />
+    <img src="./facebook-animated.svg" width="50" alt="Facebook" />
   </a>
   <a href="mailto:soumyadeepsaha1123@gmail.com">
-    <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="50" alt="Gmail" />
+    <img src="./gmail-animated.svg" width="50" alt="Gmail" />
   </a>
 </div>
 
