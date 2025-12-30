@@ -99,8 +99,8 @@
 </div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://instagram.com/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/soumyadeep-saha-800aa127a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.instagram.com/song_lover_soumya004/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
   <a href="mailto:soumyadeepsaha1123@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </div>
 
@@ -143,6 +143,26 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Soumya-420/Soumya-420/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Soumya-420/Soumya-420/output/github-contribution-grid-snake.svg">
   </picture>
+</div>
+
+<br>
+
+<!-- Contact Me Section -->
+<h2 align="center">🤝 Contact Me</h2>
+
+<div align="center">
+  <a href="https://linkedin.com/in/soumyadeep-saha-800aa127a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" width="50" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/song_lover_soumya004/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="50" alt="Instagram" />
+  </a>
+  <a href="https://www.facebook.com/share/1AR98pcVpt/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=facebook&theme=dark" width="50" alt="Facebook" />
+  </a>
+  <a href="mailto:soumyadeepsaha1123@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="50" alt="Gmail" />
+  </a>
 </div>
 
 ---
