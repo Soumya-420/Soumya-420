@@ -98,11 +98,6 @@
   <img src="https://img.shields.io/badge/Security-Encrypted-000000?style=for-the-badge&logo=protonvpn&logoColor=00FFFB&color=1a1a1a" />
 </div>
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/soumyadeep-saha-800aa127a?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.instagram.com/song_lover_soumya004/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="mailto:soumyadeepsaha1123@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</div>
 
 <br>
 
