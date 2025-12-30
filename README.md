@@ -158,7 +158,7 @@
     <img src="https://skillicons.dev/icons?i=instagram&theme=dark" width="50" alt="Instagram" />
   </a>
   <a href="https://www.facebook.com/share/1AR98pcVpt/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=facebook&theme=dark" width="50" alt="Facebook" />
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40" alt="Facebook" />
   </a>
   <a href="mailto:soumyadeepsaha1123@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail&theme=dark" width="50" alt="Gmail" />
