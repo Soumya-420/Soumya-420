@@ -83,8 +83,8 @@
         <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=donut&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages by Repo" />
       </td>
       <td width="50%" align="center">
-        <h3 style="color: #ff6b6b;">Top Languages by Commit</h3>
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=donut&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages by Commit" />
+        <h3 style="color: #ff6b6b;">Guardian Bot</h3>
+        <img src="./robot-animation.svg" width="350" alt="Animated Robot Guardian" />
       </td>
     </tr>
   </table>

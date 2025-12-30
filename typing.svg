@@ -1,74 +1,55 @@
-<svg width="600" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg">
+<svg width="700" height="50" viewBox="0 0 700 50" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Enhanced Liquid Wave Filter -->
-    <filter id="liquidWave" x="-10%" y="-10%" width="120%" height="120%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.02 0.08" numOctaves="3" result="noise">
-        <animate attributeName="baseFrequency" dur="3s" values="0.02 0.08; 0.02 0.12; 0.02 0.08" repeatCount="indefinite" />
-      </feTurbulence>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="12" xChannelSelector="R" yChannelSelector="G" />
-    </filter>
-
-    <!-- Visual Glow -->
-    <filter id="whiteGlow">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
     <style>
-      .liquid-typewriter {
-        font-family: 'Segoe UI', Montserrat, Arial, sans-serif;
-        font-weight: 900;
-        font-size: 38px;
-        fill: #ffffff;
-        filter: url(#liquidWave) url(#whiteGlow);
+      @font-face {
+        font-family: 'Fira Code';
+        src: local('Fira Code'), local('Courier New'), monospace;
+      }
+      .text-content {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 35px;
+        fill: #00FFFB; /* Cyan color matching the screenshot */
+        font-weight: 600;
         white-space: pre;
       }
-
-      .liquid-cursor {
+      .cursor {
         fill: #ffffff;
-        filter: url(#liquidWave) url(#whiteGlow);
-        animation: blinkCursor 0.8s step-end infinite;
+        animation: blink 1s step-end infinite;
+      }
+      
+      /* Synchronized Animations */
+      .anim-mask {
+        animation: reveal 3s steps(25, end) forwards;
+      }
+      .anim-cursor {
+        animation: moveCursor 3s steps(25, end) forwards;
       }
 
-      /* Typewriter Reveal using mask expansion */
-      .mask-rect {
-        animation: typewriterReveal 3.5s steps(25, end) forwards;
-      }
-
-      /* Synchronized Cursor Movement */
-      .cursor-pos {
-        animation: cursorMove 3.5s steps(25, end) forwards;
-      }
-
-      @keyframes typewriterReveal {
+      @keyframes reveal {
         from { width: 0; }
-        to { width: 550px; }
+        to { width: 540px; }
       }
-
-      @keyframes cursorMove {
+      @keyframes moveCursor {
         from { transform: translateX(0); }
-        to { transform: translateX(535px); }
+        to { transform: translateX(540px); }
       }
-
-      @keyframes blinkCursor {
-        from, to { opacity: 1; }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
     </style>
-
-    <mask id="typeMask">
-      <rect x="0" y="0" height="80" fill="white" class="mask-rect" />
+    
+    <mask id="typewriter-mask">
+      <rect x="0" y="0" height="50" fill="white" class="anim-mask" />
     </mask>
   </defs>
 
-  <g transform="translate(30, 50)">
-    <!-- Text layer with mask -->
-    <text x="0" y="0" class="liquid-typewriter" mask="url(#typeMask)">fellow &lt;cyber_warriors/&gt;!</text>
+  <!-- Centering Container -->
+  <g transform="translate(60, 35)">
+    <!-- The Typed Text -->
+    <text x="0" y="0" class="text-content" mask="url(#typewriter-mask)">fellow &lt;cyber_warriors/&gt;!</text>
     
-    <!-- Thick bar cursor that follows and waves -->
-    <rect x="2" y="-35" width="6" height="42" class="liquid-cursor cursor-pos" />
+    <!-- The Blinking Cursor (Pipe Style | ) -->
+    <rect x="5" y="-32" width="3" height="40" class="cursor anim-cursor" />
   </g>
 </svg>
