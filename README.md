@@ -134,47 +134,6 @@
 
 ---
 
-<!-- Highlights Section -->
-<h2 align="center">⭐ Highlights</h2>
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="33%" align="center">
-        <h3>🤖 Guardian Bot Creator</h3>
-        <p>Animated robot guardian featured on profile</p>
-        <img src="./robot-animation.svg" width="200" alt="Guardian Bot" />
-      </td>
-      <td width="33%" align="center">
-        <h3>💻 Top Languages</h3>
-        <p><b>HTML</b> • 67.49%</p>
-        <p><b>Python</b> • 21.25%</p>
-        <p><b>TypeScript</b> • 5.18%</p>
-        <p><b>CSS</b> • 3.32%</p>
-      </td>
-      <td width="33%" align="center">
-        <h3>📂 Active Contributor</h3>
-        <p><b>3 Public Repositories</b></p>
-        <p>129 commits in 2025</p>
-        <p>Building secure web solutions</p>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<!-- Stats Section -->
-<h2 align="center">� Battle Stats</h2>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" />
-</div>
-
-
-
----
-
 <!-- Footer -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24243e,302b63,0f0c29&height=120&section=footer" width="100%" />
