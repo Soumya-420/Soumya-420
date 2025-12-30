@@ -1,156 +1,181 @@
-<table>
-<tr>
-<td width="300px" valign="top">
-
-<!-- Profile Picture -->
+<!-- Cybersecurity Banner -->
 <div align="center">
-  <img src="https://ui-avatars.com/api/?name=Soumyadeep+Saha&size=300&background=0D8ABC&color=fff&bold=true&rounded=true" width="200" style="border-radius: 50%;">
+  <img src="./cybersecurity_banner.png" width="70%" alt="Cybersecurity Professional">
 </div>
 
 <br>
 
-<!-- Name and Username -->
-<h2 align="center">Soumyadeep Saha</h2>
-<p align="center"><i>Soumya-420</i></p>
-
-<br>
-
-<!-- Bio -->
-<p align="center">
-Web Development and Cyber Security enthusiast with hands-on experience in building responsive frontend web applications. Passionate about developing scalable web solutions and strengthening application security.
-</p>
-
-<br>
-
-<!-- Edit Profile Button -->
+<!-- Custom Header -->
 <div align="center">
-  <a href="https://github.com/settings/profile">
-    <img src="https://img.shields.io/badge/Edit_profile-gray?style=for-the-badge" alt="Edit profile">
+  <table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td align="center" valign="middle">
+        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Guardian+of+the+Web" alt="Guardian of the Web" />
+        <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Earth.gif?raw=true" width="50" style="margin-left: 50px;" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- Hello Section (Quantum3600 Style) -->
+<!-- Hello Section (Quantum3600 Style) -->
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="30px" align="right">
+  <br>
+  <h1> 𝐇𝐞𝐥𝐥𝐨, <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> </h1>
+  
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=35&pause=10000&color=00FFFB&center=true&vCenter=true&width=650&lines=fellow+<cyber_warriors/>!" alt="Typing SVG" />
+  </a>
+  
+  <br>
+  <img src="./myself.svg" width="100%" alt="It's Me, Soumyadeep">
+</div>
+
+<div align="center">
+  <h3 style="font-size: 22px; color: #ffffff; line-height: 1.8; margin: 20px 0;">
+    A budding <b style="color: #00FFFB;">Cybersecurity Analyst</b> and <b style="color: #00FFFB;">Web Defender</b> 🛡️ from <a href="https://hetc.ac.in/" style="color: #0575e6; text-decoration: none;">Hooghly Engineering & Technology College, West Bengal</a>,<br>
+    who is obsessed with securing the digital frontier and wants a platform to protect and excel 🚀.
+    <br><br>
+    <i style="font-size: 18px; color: #00f260;">"Breaking codes while <b>BUILDING & SECURING</b>!!!"</i>
+  </h3>
+</div>
+
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00FFFB&center=true&vCenter=true&width=500&lines=Cybersecurity+Specialist;Vulnerability+Assessor;Full-Stack+Web+Developer;Open+Source+Contributor" alt="Typing SVG" />
   </a>
 </div>
 
 <br>
 
-<!-- Stats -->
-<p align="center">
-  <img src="https://img.shields.io/github/followers/Soumya-420?label=followers&style=social" alt="followers">
-  •
-  <img src="https://img.shields.io/github/stars/Soumya-420?affiliations=OWNER&style=social" alt="stars">
-</p>
+---
 
-<br>
-
-<!-- Contact Info -->
-<p>
-  🎓 <b>Hooghly Engineering and Technology College</b><br>
-  📧 <a href="mailto:soumyadeepsaha1123@gmail.com">soumyadeepsaha1123@gmail.com</a><br>
-  📱 +91-7278093805<br>
-  🔗 <a href="https://github.com/Soumya-420">github.com/Soumya-420</a>
-</p>
-
-<br>
-
-<!-- Highlights -->
-<h3>Highlights</h3>
-<p>
-  ⭐ Guardian Bot Creator<br>
-  💻 Top Languages: HTML, Python, TypeScript<br>
-  📂 3 Public Repositories
-</p>
-
-<br>
-
-<!-- Education -->
-<h3>Education</h3>
-<p>
-  <b>BTech in Computer Science</b><br>
-  <i>Hooghly Engineering & Technology College</i><br>
-  2023 - 2027
-</p>
-
-</td>
-<td valign="top">
-
-<!-- Main Content Area -->
-
-## 👋 Hello!
-
-I'm a **Web Developer** and **Cybersecurity Enthusiast** currently pursuing my BTech in Computer Science at Hooghly Engineering and Technology College.
-
-<br>
-
-## 🛠️ Technical Skills
-
-**Programming Languages**
-- C, Java, Python
-
-**Web Technologies**
-- HTML, CSS, JavaScript
-- Bootstrap, Responsive Web Design
-
-**Cyber Security**
-- Web Application Security
-- OWASP Top 10
-- Ethical Hacking Fundamentals
-
-**Cloud Fundamentals**
-- Compute, Storage, Networking
-- IAM, Cloud Security Basics
-
-**Security Tools**
-- Nmap, Burp Suite, Wireshark, Postman
-
-**Database**
-- SQL
-
-<br>
-
-## 🚀 Featured Projects
-
-### 🦄 Unicorn — E-Commerce Frontend Web Application
-*Frontend Development Project*
-
-- Designed and developed a responsive e-commerce frontend using HTML, CSS, and JavaScript
-- Implemented product listings, navigation bar, cart interface, and reusable UI components
-- Focused on responsive design for seamless user experience across devices
-- Applied UI/UX best practices and frontend performance optimization
-- Used Git for version control and collaborative development
-
-🔗 [View Repository](https://github.com/Soumya-420/ecommerce-web-application---Unicorn)
-
-<br>
-
-### 🛡️ SecureCorp — Cyber Security Assessment & Fortification
-*Academic / Lab-Based Project*
-
-- Conducted end-to-end cyber security assessment for a fictional organization
-- Performed reconnaissance, vulnerability assessment, and penetration testing
-- Identified and analyzed web application vulnerabilities aligned with OWASP Top 10
-- Evaluated authentication flaws, password security, and network misconfigurations
-- Proposed mitigation strategies and defensive security recommendations
-
-🔗 [View Repository](https://github.com/Soumya-420/SecureCorp-Security-Assessment)
-
-<br>
-
-## 📊 GitHub Stats
+<!-- GitHub Stats Section - Quantum3600 Style -->
+<h2 align="center">📊 GitHub Stats</h2>
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Soumya-420&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Soumya-420&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Soumya-420&theme=tokyonight&hide_border=true)
-
+  <table>
+    <tr>
+      <td width="35%" valign="top">
+        <h3 style="color: #ff6b6b;">Soumya-420</h3>
+        <p>
+          🔹 <b>60 Contributions in 2025</b><br>
+          📦 <b>3 Public Repos</b><br>
+          🕐 <b>Joined GitHub 8 months ago</b>
+        </p>
+      </td>
+      <td width="65%" valign="top">
+        <p align="right"><i>contributions in the last year</i></p>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Graph" width="100%" />
+      </td>
+    </tr>
+  </table>
 </div>
 
-</td>
-</tr>
-</table>
+<br>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <h3 style="color: #ff6b6b;">Top Languages by Repo</h3>
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Soumya-420&layout=donut&theme=tokyonight&hide_border=true&langs_count=5" alt="Top Languages by Repo" />
+      </td>
+      <td width="50%" align="center">
+        <h3 style="color: #ff6b6b;">Guardian Bot</h3>
+        <img src="./robot-animation.svg" width="350" alt="Animated Robot Guardian" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
+<!-- Badges: Status & Socials -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24243e,302b63,0f0c29&height=100&section=footer" width="100%" />
+  <img src="https://img.shields.io/badge/Status-Hacking%20in%20Progress-000000?style=for-the-badge&logo=kali-linux&logoColor=00FFFB&color=1a1a1a" />
+  <img src="https://img.shields.io/badge/Security-Encrypted-000000?style=for-the-badge&logo=protonvpn&logoColor=00FFFB&color=1a1a1a" />
+</div>
+
+<div align="center">
+  <a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://instagram.com/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="mailto:soumyadeepsaha1123@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</div>
+
+<br>
+
+---
+
+<!-- Skills Section -->
+<h2 align="center">🛠️ Tech Arsenal</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%"><b>Languages</b></td>
+      <td align="center" width="33%"><b>Frontend</b></td>
+      <td align="center" width="33%"><b>Security & Tools</b></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=c,java,py,mysql&theme=dark&perline=2" />
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark&perline=2" />
+      </td>
+      <td align="center">
+        <img src="https://skillicons.dev/icons?i=linux,kali,wireshark,burpsuite,postman,git&theme=dark&perline=3" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<!-- Highlights Section -->
+<h2 align="center">⭐ Highlights</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%" align="center">
+        <h3>🤖 Guardian Bot Creator</h3>
+        <p>Animated robot guardian featured on profile</p>
+        <img src="./robot-animation.svg" width="200" alt="Guardian Bot" />
+      </td>
+      <td width="33%" align="center">
+        <h3>💻 Top Languages</h3>
+        <p><b>HTML</b> • 67.49%</p>
+        <p><b>Python</b> • 21.25%</p>
+        <p><b>TypeScript</b> • 5.18%</p>
+        <p><b>CSS</b> • 3.32%</p>
+      </td>
+      <td width="33%" align="center">
+        <h3>📂 Active Contributor</h3>
+        <p><b>3 Public Repositories</b></p>
+        <p>129 commits in 2025</p>
+        <p>Building secure web solutions</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<!-- Stats Section -->
+<h2 align="center">� Battle Stats</h2>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Soumya-420&theme=tokyonight" alt="Contribution Summary" />
+</div>
+
+
+
+---
+
+<!-- Footer -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24243e,302b63,0f0c29&height=120&section=footer" width="100%" />
 </div>
