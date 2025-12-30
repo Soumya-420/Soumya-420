@@ -159,12 +159,12 @@
           <rect x="-7" y="0" width="14" height="40" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
           
           <!-- WAVING HAND (palm facing FORWARD) -->
-          <g transform="translate(0, 40)">
+          <g transform="translate(0, 40) rotate(-90 0 0)">
             <!-- Wrist pivot animation - side to side like human -->
             <animateTransform 
               attributeName="transform" 
               type="rotate" 
-              values="0 0 0; -30 0 0; 30 0 0; -30 0 0; 30 0 0; 0 0 0" 
+              values="-90 0 0; -120 0 0; -60 0 0; -120 0 0; -60 0 0; -90 0 0" 
               dur="2s" 
               repeatCount="indefinite"/>
             
