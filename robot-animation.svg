@@ -171,7 +171,7 @@
             <!-- Palm (facing viewer) -->
             <ellipse cx="0" cy="0" rx="11" ry="9" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2.5"/>
             <ellipse cx="0" cy="-1" rx="9" ry="7" fill="#3a3a3a"/>
-            <ellipse cx="-2" cy="-2" rx="3" ry="2" fill="#4a4a4a" opacity="0.5"/>
+            <circle cx="-2" cy="-2" r="3" fill="#ffd700" opacity="0.8"/>
             
             <!-- Thumb (left side) -->
             <g transform="translate(-11, 0)">
