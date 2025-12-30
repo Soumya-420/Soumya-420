@@ -173,7 +173,7 @@
         <p align="right" style="color: #ff6b6b; font-weight: bold;">- Kevin Mitnick</p>
       </td>
       <td width="40%" align="center" valign="middle">
-        <img src="https://media.tenor.com/On7kvX3551YAAAAi/loading-cat.gif" width="250" alt="Coding Animation">
+        <img src="./coding-cat.gif" width="250" alt="Coding Animation">
       </td>
     </tr>
   </table>
