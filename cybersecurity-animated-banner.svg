@@ -1,25 +1,26 @@
-<svg width="1400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 300">
+<svg width="1400" height="280" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 280">
   <defs>
-    <!-- Gradient Backgrounds -->
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0e27;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#1a1f3a;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0a0e27;stop-opacity:1" />
+    <!-- Dark gradient background -->
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
     </linearGradient>
     
-    <!-- Glow Filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <!-- Cyan glow -->
+    <filter id="cyanGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     
-    <!-- Pulse Animation -->
-    <filter id="pulse">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+    <!-- Strong glow -->
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
       <feMerge>
+        <feMergeNode in="coloredBlur"/>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
@@ -27,152 +28,172 @@
   </defs>
   
   <!-- Background -->
-  <rect width="1400" height="300" fill="url(#bgGradient)"/>
+  <rect width="1400" height="280" fill="url(#darkBg)"/>
   
-  <!-- Circuit Board Pattern -->
-  <g opacity="0.3">
-    <!-- Horizontal Lines -->
-    <line x1="0" y1="50" x2="1400" y2="50" stroke="#00FFFB" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
-    </line>
-    <line x1="0" y1="150" x2="1400" y2="150" stroke="#00FFFB" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="0" y1="250" x2="1400" y2="250" stroke="#00FFFB" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.5s" repeatCount="indefinite"/>
-    </line>
+  <!-- Hexagon pattern background -->
+  <g opacity="0.1">
+    <pattern id="hexPattern" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+      <polygon points="30,0 52,13 52,39 30,52 8,39 8,13" fill="none" stroke="#00FFFB" stroke-width="1"/>
+    </pattern>
+    <rect width="1400" height="280" fill="url(#hexPattern)"/>
+  </g>
+  
+  <!-- Connection lines (circuit board style) -->
+  <g stroke="#00FFFB" stroke-width="2" fill="none" opacity="0.6">
+    <!-- Main horizontal line -->
+    <path d="M 50,140 L 1350,140">
+      <animate attributeName="stroke-dasharray" values="0,2000;2000,0" dur="3s" repeatCount="indefinite"/>
+    </path>
     
-    <!-- Vertical Lines -->
-    <line x1="200" y1="0" x2="200" y2="300" stroke="#00FFFB" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="500" y1="0" x2="500" y2="300" stroke="#00FFFB" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.8s" repeatCount="indefinite"/>
-    </line>
-    <line x1="800" y1="0" x2="800" y2="300" stroke="#00FFFB" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.3s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1100" y1="0" x2="1100" y2="300" stroke="#00FFFB" stroke-width="1" opacity="0.3">
-      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.6s" repeatCount="indefinite"/>
-    </line>
+    <!-- Connecting branches -->
+    <path d="M 180,140 L 180,80" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 420,140 L 420,200" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 700,140 L 700,80" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1.1s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 980,140 L 980,200" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1.3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1220,140 L 1220,80" stroke-dasharray="5,5">
+      <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1.15s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Circuit nodes -->
+  <g fill="#00FFFB" filter="url(#cyanGlow)">
+    <circle cx="180" cy="140" r="4">
+      <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="140" r="4">
+      <animate attributeName="r" values="4;6;4" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="140" r="4">
+      <animate attributeName="r" values="4;6;4" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="140" r="4">
+      <animate attributeName="r" values="4;6;4" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1220" cy="140" r="4">
+      <animate attributeName="r" values="4;6;4" dur="2.15s" repeatCount="indefinite"/>
+    </circle>
   </g>
   
   <!-- Shield Icon (Left) -->
-  <g transform="translate(100, 120)" filter="url(#glow)">
-    <path d="M0,-40 L-25,-30 L-25,10 Q-25,35 0,50 Q25,35 25,10 L25,-30 Z" 
-          fill="none" stroke="#00FFFB" stroke-width="3">
-      <animate attributeName="stroke" values="#00FFFB;#00d4ff;#00FFFB" dur="2s" repeatCount="indefinite"/>
+  <g transform="translate(180, 80)" filter="url(#strongGlow)">
+    <path d="M0,-35 L-20,-25 L-20,10 Q-20,30 0,40 Q20,30 20,10 L20,-25 Z" 
+          fill="#0a0e27" stroke="#00FFFB" stroke-width="3"/>
+    <path d="M-8,0 L-3,8 L8,-8" fill="none" stroke="#00ff88" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="opacity" values="0;1;1;1;0" dur="4s" repeatCount="indefinite"/>
     </path>
-    <path d="M-10,0 L-5,10 L10,-5" fill="none" stroke="#00FFFB" stroke-width="3" stroke-linecap="round">
-      <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
-    </path>
+    <text x="0" y="55" font-family="Arial" font-size="11" fill="#00FFFB" text-anchor="middle" opacity="0.8">SECURE</text>
   </g>
   
-  <!-- Lock Icon -->
-  <g transform="translate(300, 150)" filter="url(#pulse)">
-    <rect x="-15" y="0" width="30" height="25" rx="3" fill="none" stroke="#00FFFB" stroke-width="2.5"/>
-    <path d="M-10,-10 Q-10,-20 0,-20 Q10,-20 10,-10 L10,0" fill="none" stroke="#00FFFB" stroke-width="2.5"/>
-    <circle cx="0" cy="12" r="3" fill="#00FFFB">
-      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Laptop with Code -->
+  <g transform="translate(420, 200)" filter="url(#strongGlow)">
+    <rect x="-40" y="-30" width="80" height="50" rx="2" fill="#0a0e27" stroke="#00FFFB" stroke-width="2.5"/>
+    <rect x="-35" y="-25" width="70" height="40" fill="#1a1a2e"/>
+    <!-- Code lines -->
+    <line x1="-30" y1="-18" x2="-10" y2="-18" stroke="#00ff88" stroke-width="1.5"/>
+    <line x1="-30" y1="-10" x2="5" y2="-10" stroke="#00FFFB" stroke-width="1.5"/>
+    <line x1="-30" y1="-2" x2="-5" y2="-2" stroke="#ff3366" stroke-width="1.5"/>
+    <line x1="-30" y1="6" x2="10" y2="6" stroke="#00FFFB" stroke-width="1.5"/>
+    <!-- Cursor blink -->
+    <rect x="12" y="3" width="2" height="8" fill="#00FFFB">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Laptop base -->
+    <path d="M-45,20 L-40,20 L-40,22 L40,22 L40,20 L45,20 L42,28 L-42,28 Z" fill="#0a0e27" stroke="#00FFFB" stroke-width="2"/>
+    <text x="0" y="45" font-family="Arial" font-size="11" fill="#00FFFB" text-anchor="middle" opacity="0.8">CODE</text>
   </g>
   
-  <!-- Server Rack -->
-  <g transform="translate(500, 130)" filter="url(#glow)">
-    <rect x="-25" y="-30" width="50" height="60" rx="3" fill="none" stroke="#00FFFB" stroke-width="2.5"/>
-    <line x1="-20" y1="-15" x2="20" y2="-15" stroke="#00FFFB" stroke-width="2"/>
-    <line x1="-20" y1="0" x2="20" y2="0" stroke="#00FFFB" stroke-width="2"/>
-    <line x1="-20" y1="15" x2="20" y2="15" stroke="#00FFFB" stroke-width="2"/>
-    <circle cx="15" cy="-20" r="2" fill="#00ff00">
-      <animate attributeName="fill" values="#00ff00;#00FFFB;#00ff00" dur="1.5s" repeatCount="indefinite"/>
+  <!-- Central Server/Database -->
+  <g transform="translate(700, 80)" filter="url(#strongGlow)">
+    <rect x="-30" y="-35" width="60" height="70" rx="4" fill="#0a0e27" stroke="#00FFFB" stroke-width="3"/>
+    <!-- Server sections -->
+    <line x1="-25" y1="-15" x2="25" y2="-15" stroke="#00FFFB" stroke-width="2"/>
+    <line x1="-25" y1="5" x2="25" y2="5" stroke="#00FFFB" stroke-width="2"/>
+    <line x1="-25" y1="25" x2="25" y2="25" stroke="#00FFFB" stroke-width="2"/>
+    <!-- Status lights -->
+    <circle cx="18" cy="-25" r="3" fill="#00ff88">
+      <animate attributeName="fill" values="#00ff88;#00FFFB;#00ff88" dur="1.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="15" cy="-5" r="2" fill="#00ff00">
-      <animate attributeName="fill" values="#00ff00;#00FFFB;#00ff00" dur="1.8s" repeatCount="indefinite"/>
+    <circle cx="18" cy="-5" r="3" fill="#00ff88">
+      <animate attributeName="fill" values="#00ff88;#00FFFB;#00ff88" dur="1.7s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="15" cy="10" r="2" fill="#00ff00">
-      <animate attributeName="fill" values="#00ff00;#00FFFB;#00ff00" dur="2.1s" repeatCount="indefinite"/>
+    <circle cx="18" cy="15" r="3" fill="#00ff88">
+      <animate attributeName="fill" values="#00ff88;#00FFFB;#00ff88" dur="1.9s" repeatCount="indefinite"/>
     </circle>
+    <text x="0" y="55" font-family="Arial" font-size="11" fill="#00FFFB" text-anchor="middle" opacity="0.8">SERVER</text>
   </g>
   
   <!-- Firewall -->
-  <g transform="translate(700, 150)" filter="url(#glow)">
-    <rect x="-30" y="-35" width="60" height="70" fill="none" stroke="#00FFFB" stroke-width="2.5" stroke-dasharray="5,5">
-      <animate attributeName="stroke-dashoffset" from="0" to="10" dur="1s" repeatCount="indefinite"/>
-    </rect>
-    <path d="M-20,-25 L-20,25 M-10,-25 L-10,25 M0,-25 L0,25 M10,-25 L10,25 M20,-25 L20,25" 
-          stroke="#00FFFB" stroke-width="2">
+  <g transform="translate(980, 200)" filter="url(#strongGlow)">
+    <rect x="-35" y="-30" width="70" height="60" rx="3" fill="#0a0e27" stroke="#ff3366" stroke-width="3"/>
+    <!-- Brick pattern -->
+    <g stroke="#ff3366" stroke-width="1.5" opacity="0.7">
+      <line x1="-30" y1="-20" x2="30" y2="-20"/>
+      <line x1="-30" y1="-10" x2="30" y2="-10"/>
+      <line x1="-30" y1="0" x2="30" y2="0"/>
+      <line x1="-30" y1="10" x2="30" y2="10"/>
+      <line x1="-30" y1="20" x2="30" y2="20"/>
+      <line x1="-15" y1="-25" x2="-15" y2="-20"/>
+      <line x1="0" y1="-20" x2="0" y2="-10"/>
+      <line x1="15" y1="-25" x2="15" y2="-20"/>
+      <line x1="-15" y1="-10" x2="-15" y2="0"/>
+      <line x1="0" y1="0" x2="0" y2="10"/>
+      <line x1="15" y1="-10" x2="15" y2="0"/>
+      <line x1="-15" y1="10" x2="-15" y2="20"/>
+      <line x1="15" y1="10" x2="15" y2="20"/>
+    </g>
+    <!-- Shield icon overlay -->
+    <path d="M-10,-5 L-10,5 L0,10 L10,5 L10,-5 L0,-10 Z" fill="none" stroke="#ff3366" stroke-width="2">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
     </path>
+    <text x="0" y="48" font-family="Arial" font-size="11" fill="#ff3366" text-anchor="middle" opacity="0.8">FIREWALL</text>
   </g>
   
-  <!-- Bug/Vulnerability Scanner -->
-  <g transform="translate(900, 140)" filter="url(#pulse)">
-    <ellipse cx="0" cy="0" rx="20" ry="15" fill="none" stroke="#ff3366" stroke-width="2.5"/>
-    <circle cx="-8" cy="-5" r="3" fill="#ff3366"/>
-    <circle cx="8" cy="-5" r="3" fill="#ff3366"/>
-    <path d="M-20,-8 L-30,-15 M20,-8 L30,-15 M-20,8 L-30,15 M20,8 L30,15" 
-          stroke="#ff3366" stroke-width="2"/>
-    <line x1="-35" y1="0" x2="-45" y2="0" stroke="#00FFFB" stroke-width="2" opacity="0.7">
-      <animate attributeName="x2" values="-45;-55;-45" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-    </line>
-  </g>
-  
-  <!-- Encryption Key -->
-  <g transform="translate(1100, 150)" filter="url(#glow)">
-    <circle cx="0" cy="0" r="12" fill="none" stroke="#00FFFB" stroke-width="2.5"/>
-    <circle cx="0" cy="0" r="5" fill="none" stroke="#00FFFB" stroke-width="2"/>
-    <rect x="8" y="-3" width="25" height="6" fill="none" stroke="#00FFFB" stroke-width="2.5"/>
-    <rect x="20" y="-8" width="3" height="5" fill="#00FFFB"/>
-    <rect x="28" y="-8" width="3" height="5" fill="#00FFFB"/>
-    <animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/>
-  </g>
-  
-  <!-- Fingerprint Scanner -->
-  <g transform="translate(1300, 150)" filter="url(#pulse)">
-    <path d="M-15,-20 Q-15,-30 -5,-30 Q5,-30 5,-20" fill="none" stroke="#00FFFB" stroke-width="2"/>
-    <path d="M-10,-15 Q-10,-22 0,-22 Q10,-22 10,-15" fill="none" stroke="#00FFFB" stroke-width="2"/>
-    <path d="M-5,-10 Q-5,-15 0,-15 Q5,-15 5,-10" fill="none" stroke="#00FFFB" stroke-width="2"/>
-    <path d="M-15,0 Q-15,10 -5,15" fill="none" stroke="#00FFFB" stroke-width="2"/>
-    <path d="M-10,5 Q-10,12 0,15" fill="none" stroke="#00FFFB" stroke-width="2"/>
-    <path d="M5,0 Q5,10 15,15" fill="none" stroke="#00FFFB" stroke-width="2"/>
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
-  </g>
-  
-  <!-- Data Flow Particles -->
-  <g opacity="0.8">
-    <circle cx="0" cy="150" r="3" fill="#00FFFB">
-      <animate attributeName="cx" from="0" to="1400" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+  <!-- Lock/Encryption -->
+  <g transform="translate(1220, 80)" filter="url(#strongGlow)">
+    <rect x="-18" y="-5" width="36" height="30" rx="3" fill="#0a0e27" stroke="#00FFFB" stroke-width="3"/>
+    <path d="M-12,-15 Q-12,-25 0,-25 Q12,-25 12,-15 L12,-5" fill="none" stroke="#00FFFB" stroke-width="3"/>
+    <circle cx="0" cy="10" r="4" fill="#00FFFB">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="0" cy="50" r="3" fill="#00d4ff">
-      <animate attributeName="cx" from="0" to="1400" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="0" cy="250" r="3" fill="#00FFFB">
-      <animate attributeName="cx" from="0" to="1400" dur="7s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="7s" repeatCount="indefinite"/>
-    </circle>
+    <line x1="0" y1="14" x2="0" y2="20" stroke="#00FFFB" stroke-width="2"/>
+    <text x="0" y="50" font-family="Arial" font-size="11" fill="#00FFFB" text-anchor="middle" opacity="0.8">ENCRYPT</text>
   </g>
   
-  <!-- Title Text -->
-  <text x="700" y="40" font-family="'Courier New', monospace" font-size="32" font-weight="bold" 
-        fill="#00FFFB" text-anchor="middle" filter="url(#glow)">
+  <!-- Title -->
+  <text x="700" y="35" font-family="'Courier New', monospace" font-size="36" font-weight="bold" 
+        fill="#00FFFB" text-anchor="middle" filter="url(#strongGlow)" letter-spacing="3">
     CYBERSECURITY PROFESSIONAL
     <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
   </text>
   
   <!-- Subtitle -->
-  <text x="700" y="270" font-family="'Courier New', monospace" font-size="16" 
-        fill="#00FFFB" text-anchor="middle" opacity="0.8">
-    &lt;/&gt; Guardian of the Digital Frontier
-    <animate attributeName="opacity" values="0;0.8" dur="2s" fill="freeze"/>
+  <text x="700" y="260" font-family="'Courier New', monospace" font-size="14" 
+        fill="#00ff88" text-anchor="middle" opacity="0.9" font-style="italic">
+    &lt; Securing the Digital Frontier /&gt;
+    <animate attributeName="opacity" values="0;0.9" dur="2s" fill="freeze"/>
   </text>
   
-  <!-- Scanning Line Effect -->
-  <line x1="0" y1="0" x2="0" y2="300" stroke="#00FFFB" stroke-width="2" opacity="0.5">
-    <animate attributeName="x1" from="0" to="1400" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="x2" from="0" to="1400" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite"/>
-  </line>
+  <!-- Data packets flowing -->
+  <g>
+    <rect x="0" y="138" width="8" height="4" fill="#00FFFB" opacity="0.8">
+      <animate attributeName="x" from="50" to="1350" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="138" width="8" height="4" fill="#00ff88" opacity="0.8">
+      <animate attributeName="x" from="50" to="1350" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="138" width="8" height="4" fill="#ff3366" opacity="0.8">
+      <animate attributeName="x" from="50" to="1350" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0.8;0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 </svg>
