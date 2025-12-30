@@ -160,6 +160,12 @@
   </a>
 </div>
 
+<br>
+<div align="center">
+  <h3 style="color: #ffffff;">"Humans are the weakest link in any security chain."</h3>
+  <p style="color: #00FFFB;">– Kevin Mitnick, Cybersecurity Consultant</p>
+</div>
+
 ---
 
 <!-- Footer -->
