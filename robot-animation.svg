@@ -1,234 +1,296 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+<svg width="400" height="450" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
   <defs>
-    <style>
-      @keyframes spinGlobe {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-      }
-      
-      @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
-      }
-      
-      @keyframes wobble {
-        0%, 100% { transform: rotate(0deg); }
-        25% { transform: rotate(-2deg); }
-        75% { transform: rotate(2deg); }
-      }
-      
-      .globe-container {
-        animation: wobble 2s ease-in-out infinite;
-        transform-origin: 265px 135px;
-      }
-      
-      .globe-spin {
-        animation: spinGlobe 4s linear infinite;
-        transform-origin: center;
-      }
-      
-      .robot {
-        animation: float 3s ease-in-out infinite;
-      }
-    </style>
+    <!-- Gradients -->
+    <linearGradient id="robotBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
+    </linearGradient>
     
-    <radialGradient id="globeGrad" cx="40%" cy="40%">
-      <stop offset="0%" style="stop-color:#5ddbf4;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00e5ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00FFFB;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="eyeGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#00FFFB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0088ff;stop-opacity:0.5" />
     </radialGradient>
+    
+    <!-- Filters -->
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="6" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-
-  <!-- Background -->
-  <rect width="500" height="600" fill="#ffffff"/>
-
+  
+  <!-- Background glow effect -->
+  <circle cx="200" cy="200" r="150" fill="url(#cyanGlow)" opacity="0.05">
+    <animate attributeName="r" values="150;160;150" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
   <!-- Robot -->
-  <g class="robot">
-    <!-- Head -->
-    <g transform="translate(200, 220)">
-      <!-- Main head (white) -->
-      <ellipse cx="0" cy="0" rx="42" ry="48" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+  <g transform="translate(200, 250)" filter="url(#shadow)">
+    
+    <!-- Legs -->
+    <g>
+      <!-- Left Leg -->
+      <g transform="translate(-28, 65)">
+        <rect x="-9" y="0" width="18" height="60" rx="9" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+        <rect x="-7" y="15" width="14" height="10" fill="url(#cyanGlow)" opacity="0.4"/>
+        <line x1="0" y1="20" x2="0" y2="30" stroke="#00FFFB" stroke-width="2" opacity="0.6">
+          <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+        </line>
+        <!-- Foot -->
+        <g transform="translate(0, 60)">
+          <ellipse cx="0" cy="5" rx="18" ry="12" fill="#ff3366" stroke="#cc0033" stroke-width="2.5"/>
+          <ellipse cx="0" cy="3" rx="14" ry="8" fill="#ff6699"/>
+          <ellipse cx="0" cy="1" rx="10" ry="5" fill="#ffaacc"/>
+          <ellipse cx="-4" cy="0" rx="3" ry="2" fill="#ffffff" opacity="0.7"/>
+        </g>
+      </g>
       
-      <!-- Blue helmet/visor area -->
-      <ellipse cx="0" cy="-15" rx="38" ry="25" fill="#4dd0e1"/>
-      <path d="M -35,-8 Q 0,-35 35,-8" fill="#4dd0e1"/>
-      
-      <!-- Eyes (black circles) -->
-      <circle cx="-15" cy="0" r="10" fill="#000000"/>
-      <circle cx="15" cy="0" r="10" fill="#000000"/>
-      
-      <!-- Eye shine -->
-      <circle cx="-12" cy="-3" r="4" fill="#ffffff" opacity="0.6"/>
-      <circle cx="18" cy="-3" r="4" fill="#ffffff" opacity="0.6"/>
-      
-      <!-- Nose/sensor -->
-      <circle cx="0" cy="8" r="6" fill="#000000"/>
-      <circle cx="0" cy="8" r="4" fill="#ffffff" opacity="0.3"/>
+      <!-- Right Leg -->
+      <g transform="translate(28, 65)">
+        <rect x="-9" y="0" width="18" height="60" rx="9" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+        <rect x="-7" y="15" width="14" height="10" fill="url(#cyanGlow)" opacity="0.4"/>
+        <line x1="0" y1="20" x2="0" y2="30" stroke="#00FFFB" stroke-width="2" opacity="0.6">
+          <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+        </line>
+        <!-- Foot -->
+        <g transform="translate(0, 60)">
+          <ellipse cx="0" cy="5" rx="18" ry="12" fill="#ff3366" stroke="#cc0033" stroke-width="2.5"/>
+          <ellipse cx="0" cy="3" rx="14" ry="8" fill="#ff6699"/>
+          <ellipse cx="0" cy="1" rx="10" ry="5" fill="#ffaacc"/>
+          <ellipse cx="-4" cy="0" rx="3" ry="2" fill="#ffffff" opacity="0.7"/>
+        </g>
+      </g>
     </g>
-
-    <!-- Neck (black) -->
-    <rect x="188" y="260" width="24" height="20" rx="4" fill="#2c2c2c"/>
-    <rect x="192" y="265" width="16" height="12" fill="#4dd0e1"/>
-
-    <!-- Body -->
-    <g transform="translate(200, 330)">
-      <!-- Main body (white) -->
-      <rect x="-40" y="-40" width="80" height="95" rx="12" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
-      
-      <!-- Blue chest panel -->
-      <rect x="-30" y="-30" width="60" height="75" rx="8" fill="#4dd0e1"/>
-      
-      <!-- Black details on chest -->
-      <rect x="-22" y="-20" width="44" height="55" rx="6" fill="#2c2c2c"/>
-      
-      <!-- Blue inner panel -->
-      <rect x="-18" y="-15" width="36" height="45" rx="4" fill="#0891b2"/>
+    
+    <!-- Torso -->
+    <rect x="-40" y="0" width="80" height="70" rx="18" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="3"/>
+    
+    <!-- Chest Panel -->
+    <rect x="-28" y="18" width="56" height="38" rx="10" fill="url(#cyanGlow)" opacity="0.2" stroke="#00FFFB" stroke-width="2.5"/>
+    
+    <!-- Heart/Power Core -->
+    <g transform="translate(0, 37)">
+      <circle cx="0" cy="0" r="10" fill="#00FFFB" filter="url(#softGlow)" opacity="0.8">
+        <animate attributeName="r" values="10;12;10" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-4,-2 L0,3 L4,-2" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
     </g>
-
-    <!-- Left Arm (down) -->
-    <g transform="translate(200, 330)">
-      <!-- Shoulder joint -->
-      <circle cx="-45" cy="-30" r="10" fill="#4dd0e1"/>
+    
+    <!-- Left Arm (stationary) -->
+    <g transform="translate(-40, 25)">
+      <!-- Upper arm -->
+      <rect x="-7" y="0" width="14" height="38" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+      <rect x="-6" y="10" width="12" height="10" fill="url(#cyanGlow)" opacity="0.3"/>
+      
+      <!-- Lower arm -->
+      <g transform="translate(0, 38)">
+        <rect x="-7" y="0" width="14" height="35" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+        
+        <!-- Hand (palm) -->
+        <g transform="translate(0, 35)">
+          <ellipse cx="0" cy="0" rx="10" ry="8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <ellipse cx="0" cy="-1" rx="8" ry="6" fill="#3a3a3a"/>
+          
+          <!-- Thumb -->
+          <g transform="translate(-8, 2)">
+            <ellipse cx="0" cy="0" rx="3" ry="4" fill="#2a2a2a"/>
+            <rect x="-2" y="-2" width="4" height="8" rx="2" fill="#2a2a2a" transform="rotate(-30 0 2)"/>
+          </g>
+          
+          <!-- Fingers -->
+          <g transform="translate(-5, -2)">
+            <rect x="-1.5" y="0" width="3" height="12" rx="1.5" fill="#2a2a2a"/>
+            <ellipse cx="0" cy="12" rx="1.5" ry="2" fill="#2a2a2a"/>
+          </g>
+          <g transform="translate(0, -2)">
+            <rect x="-1.5" y="0" width="3" height="14" rx="1.5" fill="#2a2a2a"/>
+            <ellipse cx="0" cy="14" rx="1.5" ry="2" fill="#2a2a2a"/>
+          </g>
+          <g transform="translate(5, -2)">
+            <rect x="-1.5" y="0" width="3" height="11" rx="1.5" fill="#2a2a2a"/>
+            <ellipse cx="0" cy="11" rx="1.5" ry="2" fill="#2a2a2a"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Right Arm (waving) -->
+    <g transform="translate(40, 25)">
+      <!-- Shoulder rotation for waving -->
+      <animateTransform attributeName="transform" type="rotate" values="0 40 25; -20 40 25; 0 40 25; -20 40 25; 0 40 25" dur="2.5s" repeatCount="indefinite"/>
       
       <!-- Upper arm -->
-      <rect x="-52" y="-25" width="16" height="50" rx="8" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+      <rect x="-7" y="0" width="14" height="38" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+      <rect x="-6" y="10" width="12" height="10" fill="url(#cyanGlow)" opacity="0.3"/>
       
-      <!-- Elbow joint -->
-      <circle cx="-44" cy="28" r="8" fill="#2c2c2c"/>
-      
-      <!-- Forearm -->
-      <rect x="-50" y="30" width="12" height="45" rx="6" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
-      
-      <!-- Hand (black) -->
-      <ellipse cx="-44" cy="78" rx="10" ry="12" fill="#2c2c2c"/>
-      
-      <!-- Fingers -->
-      <rect x="-48" y="85" width="3" height="12" rx="1.5" fill="#2c2c2c"/>
-      <rect x="-44" y="85" width="3" height="12" rx="1.5" fill="#2c2c2c"/>
-      <rect x="-40" y="85" width="3" height="12" rx="1.5" fill="#2c2c2c"/>
-    </g>
-
-    <!-- Right Arm (raised up with finger pointing - globe spinning on finger) -->
-    <g transform="translate(200, 330)">
-      <!-- Shoulder joint -->
-      <circle cx="45" cy="-30" r="10" fill="#4dd0e1"/>
-      
-      <!-- Upper arm (angled up) -->
-      <rect x="38" y="-120" width="16" height="95" rx="8" fill="#ffffff" stroke="#d0d0d0" stroke-width="1" transform="rotate(-35 46 -72)"/>
-      
-      <!-- Elbow joint -->
-      <circle cx="58" cy="-115" r="8" fill="#2c2c2c"/>
-      
-      <!-- Forearm (pointing straight up) -->
-      <rect x="52" y="-175" width="12" height="65" rx="6" fill="#ffffff" stroke="#d0d0d0" stroke-width="1" transform="rotate(-10 58 -142)"/>
-      
-      <!-- Hand (black, with index finger pointing up) -->
-      <g transform="translate(65, -195)">
-        <ellipse cx="0" cy="0" rx="10" ry="12" fill="#2c2c2c"/>
+      <!-- Lower arm (bent up for waving) -->
+      <g transform="translate(0, 38) rotate(-110 0 0)">
+        <rect x="-7" y="0" width="14" height="35" rx="7" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
         
-        <!-- Index finger pointing straight up (globe spins on this) -->
-        <rect x="-1.5" y="-22" width="3" height="24" rx="1.5" fill="#2c2c2c"/>
-        <circle cx="0" cy="-23" r="2.5" fill="#2c2c2c"/>
-        
-        <!-- Other fingers curled -->
-        <rect x="-7" y="4" width="3" height="8" rx="1.5" fill="#2c2c2c" transform="rotate(30 -5.5 8)"/>
-        <rect x="-3" y="6" width="3" height="8" rx="1.5" fill="#2c2c2c" transform="rotate(15 -1.5 10)"/>
-        <rect x="4" y="4" width="3" height="8" rx="1.5" fill="#2c2c2c" transform="rotate(-30 5.5 8)"/>
+        <!-- Waving Hand -->
+        <g transform="translate(0, 35)">
+          <!-- Hand waving motion -->
+          <animateTransform attributeName="transform" type="rotate" values="0 0 0; 30 0 0; -30 0 0; 30 0 0; -30 0 0; 0 0 0" dur="2.5s" repeatCount="indefinite"/>
+          
+          <!-- Palm -->
+          <ellipse cx="0" cy="0" rx="11" ry="9" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="2.5"/>
+          <ellipse cx="0" cy="-1" rx="9" ry="7" fill="#3a3a3a"/>
+          <ellipse cx="-2" cy="-2" rx="3" ry="2" fill="#4a4a4a" opacity="0.5"/>
+          
+          <!-- Thumb (spread) -->
+          <g transform="translate(-10, 2) rotate(-40 0 0)">
+            <rect x="-2" y="0" width="4" height="10" rx="2" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+            <ellipse cx="0" cy="10" rx="2" ry="2.5" fill="#2a2a2a"/>
+          </g>
+          
+          <!-- Index Finger (pointing up, spread) -->
+          <g transform="translate(-6, -3) rotate(-15 0 0)">
+            <rect x="-1.8" y="0" width="3.6" height="14" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+            <ellipse cx="0" cy="14" rx="1.8" ry="2.5" fill="#2a2a2a"/>
+            <!-- Knuckle -->
+            <circle cx="0" cy="4" r="2" fill="#3a3a3a"/>
+          </g>
+          
+          <!-- Middle Finger (tallest, center) -->
+          <g transform="translate(0, -3)">
+            <rect x="-1.8" y="0" width="3.6" height="16" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+            <ellipse cx="0" cy="16" rx="1.8" ry="2.5" fill="#2a2a2a"/>
+            <!-- Knuckle -->
+            <circle cx="0" cy="5" r="2" fill="#3a3a3a"/>
+          </g>
+          
+          <!-- Ring Finger (spread) -->
+          <g transform="translate(6, -3) rotate(15 0 0)">
+            <rect x="-1.8" y="0" width="3.6" height="13" rx="1.8" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+            <ellipse cx="0" cy="13" rx="1.8" ry="2.5" fill="#2a2a2a"/>
+            <!-- Knuckle -->
+            <circle cx="0" cy="4" r="2" fill="#3a3a3a"/>
+          </g>
+          
+          <!-- Pinky (smallest, spread) -->
+          <g transform="translate(10, -2) rotate(25 0 0)">
+            <rect x="-1.5" y="0" width="3" height="10" rx="1.5" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+            <ellipse cx="0" cy="10" rx="1.5" ry="2" fill="#2a2a2a"/>
+            <!-- Knuckle -->
+            <circle cx="0" cy="3" r="1.5" fill="#3a3a3a"/>
+          </g>
+        </g>
       </g>
     </g>
-
-    <!-- Legs -->
-    <!-- Left Leg -->
-    <g transform="translate(200, 385)">
-      <!-- Hip joint -->
-      <circle cx="-18" cy="0" r="10" fill="#4dd0e1"/>
+    
+    <!-- Neck -->
+    <rect x="-12" y="-18" width="24" height="20" rx="6" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="2.5"/>
+    <rect x="-10" y="-12" width="20" height="8" fill="#2a2a2a" opacity="0.3"/>
+    
+    <!-- Head -->
+    <g transform="translate(0, -48)">
+      <!-- Main head -->
+      <ellipse cx="0" cy="0" rx="38" ry="35" fill="url(#robotBody)" stroke="#d0d0d0" stroke-width="3"/>
       
-      <!-- Upper leg -->
-      <rect x="-26" y="5" width="16" height="60" rx="8" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+      <!-- Cyan visor/ear piece -->
+      <path d="M-32,-10 Q-38,0 -32,10 L-20,14 L-20,-14 Z" fill="url(#cyanGlow)" opacity="0.7" filter="url(#softGlow)"/>
+      <circle cx="-26" cy="0" r="4" fill="#00FFFB" opacity="0.8">
+        <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+      </circle>
       
-      <!-- Knee joint -->
-      <circle cx="-18" cy="68" r="8" fill="#2c2c2c"/>
+      <!-- Eyes -->
+      <g>
+        <!-- Left eye -->
+        <circle cx="-12" cy="-4" r="9" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="2"/>
+        <circle cx="-12" cy="-4" r="6" fill="url(#eyeGlow)" filter="url(#strongGlow)">
+          <animate attributeName="r" values="6;5;6" dur="4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="-10" cy="-6" r="2" fill="#ffffff" opacity="0.9"/>
+        
+        <!-- Right eye -->
+        <circle cx="12" cy="-4" r="9" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="2"/>
+        <circle cx="12" cy="-4" r="6" fill="url(#eyeGlow)" filter="url(#strongGlow)">
+          <animate attributeName="r" values="6;5;6" dur="4s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="14" cy="-6" r="2" fill="#ffffff" opacity="0.9"/>
+      </g>
       
-      <!-- Lower leg -->
-      <rect x="-24" y="72" width="12" height="65" rx="6" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
+      <!-- Antenna -->
+      <line x1="0" y1="-35" x2="0" y2="-45" stroke="#d0d0d0" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="0" cy="-47" r="5" fill="#ff3366" filter="url(#softGlow)">
+        <animate attributeName="fill" values="#ff3366;#00FFFB;#ff3366" dur="3s" repeatCount="indefinite"/>
+      </circle>
       
-      <!-- Ankle joint -->
-      <circle cx="-18" cy="140" r="6" fill="#2c2c2c"/>
-      
-      <!-- Foot (red shoe) -->
-      <ellipse cx="-18" cy="152" rx="16" ry="12" fill="#cc0000"/>
-      <ellipse cx="-18" cy="150" rx="14" ry="10" fill="#ff3333"/>
-      <ellipse cx="-22" cy="149" rx="5" ry="4" fill="#ffffff" opacity="0.7"/>
-    </g>
-
-    <!-- Right Leg -->
-    <g transform="translate(200, 385)">
-      <!-- Hip joint -->
-      <circle cx="18" cy="0" r="10" fill="#4dd0e1"/>
-      
-      <!-- Upper leg -->
-      <rect x="10" y="5" width="16" height="60" rx="8" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
-      
-      <!-- Knee joint -->
-      <circle cx="18" cy="68" r="8" fill="#2c2c2c"/>
-      
-      <!-- Lower leg -->
-      <rect x="12" y="72" width="12" height="65" rx="6" fill="#ffffff" stroke="#d0d0d0" stroke-width="1"/>
-      
-      <!-- Ankle joint -->
-      <circle cx="18" cy="140" r="6" fill="#2c2c2c"/>
-      
-      <!-- Foot (red shoe) -->
-      <ellipse cx="18" cy="152" rx="16" ry="12" fill="#cc0000"/>
-      <ellipse cx="18" cy="150" rx="14" ry="10" fill="#ff3333"/>
-      <ellipse cx="14" cy="149" rx="5" ry="4" fill="#ffffff" opacity="0.7"/>
+      <!-- Happy smile -->
+      <path d="M-12,12 Q0,18 12,12" fill="none" stroke="#2a2a2a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-10,13 Q0,17 10,13" fill="none" stroke="#4a4a4a" stroke-width="1.5" stroke-linecap="round"/>
     </g>
   </g>
-
-  <!-- Globe spinning ON the robot's finger -->
-  <g class="globe-container">
-    <g transform="translate(265, 135)">
-      <g class="globe-spin">
-        <!-- Globe sphere -->
-        <circle cx="0" cy="0" r="50" fill="url(#globeGrad)"/>
-        
-        <!-- Continents in white -->
-        <g fill="#ffffff" opacity="0.9">
-          <!-- North America -->
-          <path d="M -18,-23 L -13,-28 L -5,-26 L 0,-18 L -7,-13 L -13,-16 Z"/>
-          <path d="M -10,-10 L -4,-6 L 0,-3 L -4,2 L -10,-3 Z"/>
-          
-          <!-- South America -->
-          <path d="M -7,7 L -2,14 L -4,23 L -9,26 L -11,18 L -9,11 Z"/>
-          
-          <!-- Europe -->
-          <path d="M 7,-23 L 13,-26 L 18,-23 L 16,-18 L 11,-16 Z"/>
-          
-          <!-- Africa -->
-          <path d="M 7,-13 L 13,-10 L 18,-6 L 20,5 L 16,16 L 11,23 L 7,18 L 9,9 L 7,0 Z"/>
-          
-          <!-- Asia -->
-          <path d="M 23,-18 L 32,-16 L 37,-9 L 35,0 L 30,7 L 23,4 L 26,-4 L 23,-11 Z"/>
-          
-          <!-- Australia -->
-          <path d="M 28,16 L 32,18 L 32,23 L 26,24 L 24,20 Z"/>
-        </g>
-        
-        <!-- Globe shine -->
-        <ellipse cx="-16" cy="-16" rx="18" ry="23" fill="#ffffff" opacity="0.3"/>
-      </g>
-      
-      <!-- Motion lines showing spinning -->
-      <g opacity="0.5">
-        <path d="M 52,0 L 62,-5" stroke="#4dd0e1" stroke-width="2" stroke-linecap="round">
-          <animate attributeName="opacity" values="0;0.7;0" dur="1s" repeatCount="indefinite"/>
-        </path>
-        <path d="M 50,10 L 60,8" stroke="#4dd0e1" stroke-width="2" stroke-linecap="round">
-          <animate attributeName="opacity" values="0;0.7;0" dur="1s" begin="0.25s" repeatCount="indefinite"/>
-        </path>
-        <path d="M 50,-10 L 60,-8" stroke="#4dd0e1" stroke-width="2" stroke-linecap="round">
-          <animate attributeName="opacity" values="0;0.7;0" dur="1s" begin="0.5s" repeatCount="indefinite"/>
-        </path>
-      </g>
+  
+  <!-- Floating animation -->
+  <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="3s" repeatCount="indefinite" additive="sum"/>
+  
+  <!-- Sparkles/Stars around robot -->
+  <g opacity="0.8">
+    <g transform="translate(120, 180)">
+      <path d="M0,-8 L2,-2 L8,0 L2,2 L0,8 L-2,2 L-8,0 L-2,-2 Z" fill="#00FFFB">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+      </path>
     </g>
+    
+    <g transform="translate(280, 200)">
+      <path d="M0,-6 L1.5,-1.5 L6,0 L1.5,1.5 L0,6 L-1.5,1.5 L-6,0 L-1.5,-1.5 Z" fill="#ff3366">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+      </path>
+    </g>
+    
+    <g transform="translate(200, 100)">
+      <path d="M0,-5 L1.2,-1.2 L5,0 L1.2,1.2 L0,5 L-1.2,1.2 L-5,0 L-1.2,-1.2 Z" fill="#ffff00">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="3.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite" begin="1s"/>
+      </path>
+    </g>
+  </g>
+  
+  <!-- "Hi!" text bubble -->
+  <g transform="translate(280, 140)">
+    <animate attributeName="opacity" values="0;1;1;1;0" dur="3s" repeatCount="indefinite"/>
+    
+    <!-- Speech bubble -->
+    <ellipse cx="0" cy="0" rx="35" ry="25" fill="#ffffff" stroke="#00FFFB" stroke-width="2.5" filter="url(#softGlow)"/>
+    <path d="M-15,20 L-20,35 L-5,22 Z" fill="#ffffff" stroke="#00FFFB" stroke-width="2.5"/>
+    
+    <!-- "Hi!" text -->
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#00FFFB" text-anchor="middle">Hi!</text>
   </g>
 </svg>
