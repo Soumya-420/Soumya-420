@@ -129,6 +129,44 @@
 
 ---
 
+<!-- Featured Projects -->
+<h2 align="center">🏆 Featured Projects</h2>
+
+<div align="center">
+  <table border="0" width="90%">
+    <tr>
+      <td align="center" valign="middle" style="background-color: #0d1117; border-radius: 15px; padding: 20px; border: 1px solid #30363d;">
+        <h3 style="color: #00FFFB; margin-bottom: 10px;">🛡️ SecureCorp Security Assessment</h3>
+        <p style="color: #c9d1d9; font-size: 15px; line-height: 1.5;">
+          A comprehensive <b>security assessment strategy</b> covering Reconnaissance, Vulnerability Assessment, and Penetration Testing.
+          <br>
+          <i>Featured Domains: Web App Security, Network Fortification, Malware Analytics.</i>
+        </p>
+        <div align="center" style="margin-top: 15px;">
+           <img src="https://img.shields.io/badge/Domain-Cybersecurity-000000?style=flat-square&logo=kali-linux&logoColor=00FFFB&color=1a1a1a" />
+           <img src="https://img.shields.io/badge/Type-Assessment_Report-000000?style=flat-square&logo=readme&logoColor=00FFFB&color=1a1a1a" />
+        </div>
+        
+        <br>
+        
+        <!-- Animated Terminal Demo -->
+        <div align="center">
+           <img src="./terminal-demo.svg" width="90%" alt="Security Assessment Demo" />
+        </div>
+
+        <br>
+        <a href="https://github.com/Soumya-420/SecureCorp-Security-Assessment" target="_blank">
+          <img src="https://img.shields.io/badge/View_Project_Files-000000?style=for-the-badge&logo=github&logoColor=00FFFB&color=238636" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+---
+
 <!-- Snake Animation -->
 <h2 align="center">🐍 Contribution Snake</h2>
 

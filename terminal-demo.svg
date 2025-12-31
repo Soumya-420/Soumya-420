@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <style>
+    .terminal-bg { fill: #0d1117; }
+    .terminal-header { fill: #161b22; }
+    .dot { fill: #3b3e44; }
+    .red { fill: #ff5f56; }
+    .yellow { fill: #ffbd2e; }
+    .green { fill: #27c93f; }
+    .text { font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; fill: #c9d1d9; }
+    .cmd { fill: #00FFFB; font-weight: bold; }
+    .success { fill: #00FFFB; }
+    .error { fill: #ff6b6b; }
+    .info { fill: #8b949e; }
+    .cursor { fill: #00FFFB; animation: blink 1s infinite; }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    /* Typing Animation Steps */
+    .step-1 { opacity: 0; animation: type 0.5s steps(20, end) 1s forwards; }
+    .step-2 { opacity: 0; animation: fade-in 0.1s 1.5s forwards; }
+    .step-3 { opacity: 0; animation: type 1s steps(40, end) 2.5s forwards; }
+    .step-4 { opacity: 0; animation: fade-in 0.1s 3.5s forwards; }
+    .step-5 { opacity: 0; animation: type 0.5s steps(20, end) 5s forwards; }
+    .step-6 { opacity: 0; animation: fade-in 0.1s 5.5s forwards; }
+    
+    @keyframes type { to { opacity: 1; } }
+    @keyframes fade-in { to { opacity: 1; } }
+  </style>
+
+  <!-- Window Frame -->
+  <rect class="terminal-bg" x="0" y="0" width="600" height="400" rx="10" ry="10" />
+  <path class="terminal-header" d="M0 10 C0 4.5 4.5 0 10 0 L590 0 C595.5 0 600 4.5 600 10 L600 30 L0 30 Z" />
+  
+  <!-- Window Controls -->
+  <circle class="red" cx="20" cy="15" r="5" />
+  <circle class="yellow" cx="40" cy="15" r="5" />
+  <circle class="green" cx="60" cy="15" r="5" />
+  <text x="250" y="20" class="text" style="font-size: 12px; fill: #8b949e;">SecureCorp -- Assessment</text>
+
+  <!-- Content -->
+  <g transform="translate(15, 60)">
+    <!-- Line 1: Init -->
+    <text y="0" class="text step-1">root@kali:~$ <tspan class="cmd">./start_assessment.py --target securecorp</tspan></text>
+    
+    <!-- Line 2: Banner -->
+    <g class="step-2">
+      <text y="25" class="success">[*] SecureCorp Assessment Framework v1.0</text>
+      <text y="45" class="info">[*] Target: securecorp.local</text>
+      <text y="65" class="info">[*] Modules loaded: 12</text>
+    </g>
+
+    <!-- Line 3: Recon -->
+    <text y="95" class="text step-3">root@kali:~$ <tspan class="cmd">run module reconnaissance</tspan></text>
+    
+    <!-- Line 4: Recon Output -->
+    <g class="step-4">
+      <text y="120" class="success">[+] Starting DNS Enumeration...</text>
+      <text y="140" class="text">    Found: mail.securecorp.local [10.0.0.15]</text>
+      <text y="160" class="text">    Found: vpn.securecorp.local [10.0.0.20]</text>
+      <text y="180" class="success">[+] Port Scanning (Nmap)...</text>
+      <text y="200" class="text">    22/tcp  OPEN  ssh (OpenSSH 8.2)</text>
+      <text y="220" class="text">    80/tcp  OPEN  http (Apache 2.4.41)</text>
+      <text y="240" class="error">[!] VULNERABILITY DETECTED: CVE-2021-41773</text>
+    </g>
+
+    <!-- Line 5: Exploit -->
+    <text y="270" class="text step-5">root@kali:~$ <tspan class="cmd">exploit --auto</tspan></text>
+    
+    <!-- Line 6: Result -->
+    <g class="step-6">
+      <text y="295" class="success">[+] Exploiting Apache Path Traversal...</text>
+      <text y="315" class="success">[+] Success! Reverse shell opened.</text>
+      <text y="335" class="info">root@securecorp:/# _</text>
+      <rect x="170" y="323" width="8" height="15" class="cursor" />
+    </g>
+  </g>
+</svg>
